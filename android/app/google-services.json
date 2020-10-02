@@ -8,6 +8,43 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:320512249265:android:94433c302b205d79ef8190",
+        "android_client_info": {
+          "package_name": "com.devprayag.flutter_ebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320512249265-5e41jquhdfdo958ff812tdtv04rsn0at.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devprayag.flutter_ebook",
+            "certificate_hash": "695e7be924928f2c7b4fbbdfded48e31a7c15318"
+          }
+        },
+        {
+          "client_id": "320512249265-el5seblep5gb9ftcoaqo45ukebf9o330.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnVr-xG15JBm2JWHBSCVujwXGdAhFiUZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320512249265-el5seblep5gb9ftcoaqo45ukebf9o330.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:320512249265:android:9ada915f66fefc94ef8190",
         "android_client_info": {
           "package_name": "com.example.flutter_ebook"

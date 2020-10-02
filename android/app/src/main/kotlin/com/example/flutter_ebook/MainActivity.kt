@@ -1,4 +1,4 @@
-package com.example.flutter_ebook
+package com.devprayag.flutter_ebook
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

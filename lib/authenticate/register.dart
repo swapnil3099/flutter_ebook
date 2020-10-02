@@ -1,3 +1,4 @@
+import 'package:flutter_ebook/loading.dart';
 import 'package:flutter_ebook/services/auth.dart';
 import 'package:flutter/material.dart';
 
@@ -14,15 +15,18 @@ class _RegisterState extends State<Register> {
 
   final AuthService _auth =AuthService();
   final _formKey = GlobalKey<FormState>();
+  bool loading = false;
 
   String email = '';
+  String firstname = '';
+  String surname = '';
   String password = '';
   String rePassword = '';
   String error = '';
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return loading ? Loading() : Scaffold(
       appBar: AppBar(
         title: Text('Sign-Up'),
         actions: <Widget>[
@@ -37,6 +41,38 @@ class _RegisterState extends State<Register> {
           child: Column(
             children: <Widget>[
               SizedBox(height: 30,),
+              TextFormField(
+                decoration: InputDecoration(hintText: 'First Name',
+                    enabledBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.black,width: 2)
+                    ),
+                    focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.blueAccent,width: 2)
+                    )
+                ),
+                validator: (val) => val.isEmpty ? 'Cannot be empty' : null,
+                onChanged: (val) {
+                  setState(() {
+                    //Register.password = val;
+                    firstname = val;
+                  });
+                },
+              ),
+              SizedBox(height: 20.0,),
+              TextFormField(
+                decoration: InputDecoration(hintText: 'Last Name',
+                    enabledBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.black,width: 2)
+                    ),
+                    focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.blueAccent,width: 2)
+                    )
+                ),
+                validator: (val) => val.isEmpty ? 'Cannot be empty' : null,
+                onChanged: (val) {
+                  setState(() {
+                    //Register.password = val;
+                    surname = val;
+                  });
+                },
+              ),
+              SizedBox(height: 20.0,),
               TextFormField(
                 decoration: InputDecoration(hintText: 'Email',
                     enabledBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.black,width: 2)
@@ -103,10 +139,16 @@ class _RegisterState extends State<Register> {
                 color: Colors.white,
                 elevation: 5.0,
                 onPressed: () async{
+                  setState(() => loading = true);
                   if(_formKey.currentState.validate()){
                     dynamic result = await _auth.registerWithEmailAndPassword(email, password);
                     if(result == null){
-                      setState(() => error = 'please supply a valid email');
+                      setState((){
+                        error = 'please supply a valid email';
+                        loading = false;
+                      });
+
+
                     }
                     else{
                     }
