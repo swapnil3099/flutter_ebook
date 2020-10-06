@@ -8,11 +8,14 @@ class Profile extends StatefulWidget {
 
 class _ProfileState extends State<Profile> {
   final AuthService _auth = AuthService();
+  bool loading = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child:RaisedButton(onPressed:() async{await _auth.signOut();Navigator.popUntil(context, ModalRoute.withName('/'),);},child: Text('Log Out'),),
+        child:RaisedButton(onPressed:() async{
+          setState(() => loading = true);
+          await _auth.signOut();Navigator.popUntil(context, ModalRoute.withName('/'),);},child: Text('Log Out'),),
       ),
     );
   }

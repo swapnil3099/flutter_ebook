@@ -2,12 +2,12 @@ import 'package:flutter_ebook/consttants.dart';
 import 'package:flutter/material.dart';
 import 'package:advance_pdf_viewer/advance_pdf_viewer.dart';
 
-class Page extends StatefulWidget {
+class Page7 extends StatefulWidget {
   @override
   _PageState createState() => _PageState();
 }
 
-class _PageState extends State<Page> {
+class _PageState extends State<Page7> {
 
   bool _isLoading = true;
   PDFDocument document;
@@ -16,7 +16,7 @@ class _PageState extends State<Page> {
     loadDocument();
   }
   loadDocument() async {
-    document = await PDFDocument.fromAsset('assets/pdf/1.pdf');
+    document = await PDFDocument.fromAsset('assets/pdf/7.pdf');
     setState(() => _isLoading = false);
   }
 
@@ -25,7 +25,7 @@ class _PageState extends State<Page> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('श्री गुरु ध्यानम्'),
+          title: Text('गणपति पूजन'),
           backgroundColor:kProgressIndicator,
           centerTitle: true,
         ),

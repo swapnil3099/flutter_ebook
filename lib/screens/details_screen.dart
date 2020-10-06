@@ -1,17 +1,291 @@
+import 'package:flutter_ebook/Pages/page10.dart';
+import 'package:flutter_ebook/Pages/page11.dart';
+import 'package:flutter_ebook/Pages/page12.dart';
+import 'package:flutter_ebook/Pages/page13.dart';
+import 'package:flutter_ebook/Pages/page14.dart';
+import 'package:flutter_ebook/Pages/page15.dart';
+import 'package:flutter_ebook/Pages/page2.dart';
+import 'package:flutter_ebook/Pages/page3.dart';
+import 'package:flutter_ebook/Pages/page4.dart';
+import 'package:flutter_ebook/Pages/page5.dart';
+import 'package:flutter_ebook/Pages/page6.dart';
+import 'package:flutter_ebook/Pages/page7.dart';
+import 'package:flutter_ebook/Pages/page8.dart';
+import 'package:flutter_ebook/Pages/page9.dart';
 import 'package:flutter_ebook/consttants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ebook/screens/page.dart';
-class DetailsScreen extends StatelessWidget {
+
+class DetailsScreen extends StatefulWidget {
+  @override
+  _DetailsScreenState createState() => _DetailsScreenState();
+}
+
+class _DetailsScreenState extends State<DetailsScreen> {
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
+    var size = MediaQuery
+        .of(context)
+        .size;
     return Scaffold(
       appBar: AppBar(
         title: Text('Index'),
         backgroundColor: Colors.orangeAccent,
       ),
-      body: _myListView(context),
-      backgroundColor:  Colors.orange[100],
+      body:  SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        child: Container(
+            margin: EdgeInsets.all(10),
+            child: Table(
+              columnWidths: {0: FractionColumnWidth(.15), 1: FractionColumnWidth(.6), 2: FractionColumnWidth(.3)},
+              border: TableBorder.all(),
+              children: [
+                TableRow(
+                    decoration: BoxDecoration(color: Colors.deepOrange[900]),
+                    children: [
+                  Text('क्रम',style: TextStyle(fontSize: 22,color: Colors.white),textDirection: TextDirection.ltr,),
+                  Text('प्रयोग',style: TextStyle(fontSize: 22,color: Colors.white),),
+                  Text('पेजनं.',style: TextStyle(fontSize: 22,color: Colors.white),),
+                ]),
+                TableRow(
+                    children: [
+                  Column(
+                    children: <Widget>[
+                    Text('1',style: TextStyle(fontSize: 20),),
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page())),
+                    child: Column(children: <Widget>[
+                        Text('श्री गुरु ध्यानम्',style: TextStyle(fontSize: 20)),
+                        Text('• प्रयोग प्रारंभः • आचम्य प्राणानायाम्य',style: TextStyle(fontSize: 20),),
+                        Text('• शिखा बन्धनम् • स्वस्ति तिलक',style: TextStyle(fontSize: 20),),
+                        Text('• कंकणबन्धनम् • पुष्पमाला',style: TextStyle(fontSize: 20),),
+                        Text('• भद्रसूक्त - शान्तिपाठ – देवतानमस्कार',style: TextStyle(fontSize: 20),),
+                      ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('01-13',style: TextStyle(fontSize: 20),)
+                  ],)
+                ]),
+             TableRow(children: [
+               Column(children: <Widget>[
+                 Text('2',style: TextStyle(fontSize: 20),)
+               ],),
+               GestureDetector(
+                 onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page2())),
+                 child: Column(children: <Widget>[
+                   Text('शपंचाग विषयक जानकारी -',style: TextStyle(fontSize: 22)),
+                 ],),
+               ),
+               Column(children: <Widget>[
+                 Text('14-18',style: TextStyle(fontSize: 20),)
+               ],)
+             ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('3',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page3())),
+                    child: Column(children: <Widget>[
+                      Text('प्रधानसंकल्पः -',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                      Text('• नवचण्डी / शतचण्डी / सहस्त्रचण्डी',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                      Text('• विष्णुयाग • गणेशयाग • सूर्ययाग',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                      Text('• लघुरुद्र - महारुद्र - अतिरुद्र',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                      Text('• संपुटितचण्डीपाठ • वास्तुशान्ति',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                      Text('• विशेष ग्रह ग्रहविधान के लिए संकल्प',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('19-27',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('4',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page4())),
+                    child: Column(children: <Widget>[
+                      Text('• आसन विधि • भूमिप्रार्थना',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                      Text('• दिग्रक्षणं • भैरवनमस्कार',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                      Text('• बटुकभैरववंदना • हनुमान्नमस्कार',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('27-31',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('5',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page5())),
+                    child: Column(children: <Widget>[
+                      Text('कलशार्चनम् - वेद मंत्र',style: TextStyle(fontSize: 22, fontStyle: FontStyle.normal)),
+                      Text('• ऋग्वेद - यजुर्वेद - सामवेद – अथर्ववेद',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('32-37',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('6',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page6())),
+                    child: Column(children: <Widget>[
+                      Text('• दीपपूजनम् • सूर्यनमस्कारः',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                      Text('• शङ्खपूजनम् • घण्टापूजनम्',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                      Text('• प्राणप्रतिष्ठा',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('37-47',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('7',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page7())),
+                    child: Column(children: <Widget>[
+                      Text('गणपति पूजन',style: TextStyle(fontSize: 23, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('48-78',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('8',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page8())),
+                    child: Column(children: <Widget>[
+                      Text('पुण्याहवाचनप्रयोगः',style: TextStyle(fontSize: 23, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('79-105',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('9',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page9())),
+                    child: Column(children: <Widget>[
+                      Text('गौर्यादिमातृकास्थापनम्',style: TextStyle(fontSize: 23, fontStyle: FontStyle.normal)),
+                      Text('• वैश्वदेवसङ्कल्पः',style: TextStyle(fontSize: 19, fontStyle: FontStyle.normal)),
+                      Text('•श्र्यादिसप्तवसोर्द्धारादेवतापूजनम्',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                      Text('• अथायुप्यमंत्रजपः • नान्दीश्राद्धप्रयोगः',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('106-127',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('10',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page10())),
+                    child: Column(children: <Widget>[
+                      Text('आचार्यादिऋत्विग्वरणम्',style: TextStyle(fontSize: 23, fontStyle: FontStyle.normal)),
+                      Text('• वरणश्राद्धम् • मधुपर्काचन प्रयोगः',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('128-150',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('11',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page11())),
+                    child: Column(children: <Widget>[
+                      Text('ब्राह्मण प्रार्थना',style: TextStyle(fontSize: 23, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('151',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('12',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page12())),
+                    child: Column(children: <Widget>[
+                      Text('वर्धिनीकलशपूजनम्',style: TextStyle(fontSize: 23, fontStyle: FontStyle.normal)),
+                      Text('• मण्डपप्रवेश',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('152-164',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('13',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page13())),
+                    child: Column(children: <Widget>[
+                      Text('• पंचगव्यकरणम् भूमिप्रोक्षणञ्च',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('164',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('14',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page14())),
+                    child: Column(children: <Widget>[
+                      Text('• भूम्यादिदेवतापूजनं • स्वस्त्ययनम्',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('165',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+                TableRow(children: [
+                  Column(children: <Widget>[
+                    Text('15',style: TextStyle(fontSize: 20),)
+                  ],),
+                  GestureDetector(
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page15())),
+                    child: Column(children: <Widget>[
+                      Text('मण्डपाङ्ग गणपति पूजनम्',style: TextStyle(fontSize: 20, fontStyle: FontStyle.normal)),
+                    ],),
+                  ),
+                  Column(children: <Widget>[
+                    Text('166',style: TextStyle(fontSize: 20,),)
+                  ],)
+                ]),
+              ],
+
+            ),
+          ),
+      ),
+
+      //_myListView(context),
+      backgroundColor: Colors.orange[100],
 //      body: SingleChildScrollView(
 //        child: Column(
 //          crossAxisAlignment: CrossAxisAlignment.start,
@@ -122,299 +396,4 @@ class DetailsScreen extends StatelessWidget {
     );
   }
 
-  Widget _myListView(BuildContext context) {
-
-    Widget column = Container(
-      color: Colors.orange[50],
-      width: 250,
-      child: Column(
-        // align the text to the left instead of centered
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Container(
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 1',style: TextStyle(fontSize: 15), ))),
-          ),
-          Container(
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 2',style: TextStyle(fontSize: 15), ))),
-          ),
-          Container(
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 3',style: TextStyle(fontSize: 15), ))),
-          ),
-          Container(
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 4',style: TextStyle(fontSize: 15), ))),
-          ),
-          Container(
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 5',style: TextStyle(fontSize: 15), ))),
-          ),
-          Container(
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 6',style: TextStyle(fontSize: 15), ))),
-          ),
-          Container(
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 7',style: TextStyle(fontSize: 15), ))),
-          ), Container(
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 8',style: TextStyle(fontSize: 15), ))),
-          ),
-          Container(
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 9',style: TextStyle(fontSize: 15), ))),
-          ),
-          Container(
-            //width: 300,
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 10',style: TextStyle(fontSize: 15), ))),
-          ),
-          Container(
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 11',style: TextStyle(fontSize: 15), ))),
-          ),
-          Container(
-            decoration:BoxDecoration(border: Border.all()),
-            child: GestureDetector(
-                onTap:(){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page()));
-                },child: ListTile(title: Text('Page 12',style: TextStyle(fontSize: 15), ))),
-          ),
-        ],
-      ),
-    );
-    Widget column1 = Container(
-      color: Colors.orange[50],
-      width: 145,
-      child: Column(
-        // align the text to the left instead of centered
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('1 - 15',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('10 - 19',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('16 - 515',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('56 - 615',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('46 - 515',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('460 - 215',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('96 - 125',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('106 - 135',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('486 - 125',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('466 - 185',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('460 - 165',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-          Container(decoration:BoxDecoration(border: Border.all()),child: ListTile(title: Text('451 - 565',style: TextStyle(fontSize: 15),textAlign: TextAlign.center,))),
-        ],
-      ),
-    );
-
-    return ListView(
-      children: <Widget>[
-        Padding(
-          padding: const EdgeInsets.all(8),
-          child: Row(
-
-            children: <Widget>[
-              column,
-              // Divider(thickness: 1.5, indent: 10,endIndent: 10, color: Colors.red,),
-              column1
-            ],
-          ),
-        ),
-      ],
-    );
-  }
-
-
-}
-
-class ChapterCard extends StatelessWidget {
-  final String name;
-  final String tag;
-  final int chapterNumber;
-  final Function press;
-  const ChapterCard({
-    Key key,
-    this.name,
-    this.tag,
-    this.chapterNumber,
-    this.press,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
-    return Container(
-      padding: EdgeInsets.symmetric(vertical: 20, horizontal: 30),
-      margin: EdgeInsets.only(bottom: 16),
-      width: size.width - 48,
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(38.5),
-        boxShadow: [
-          BoxShadow(
-            offset: Offset(0, 10),
-            blurRadius: 33,
-            color: Color(0xFFD3D3D3).withOpacity(.84),
-          ),
-        ],
-      ),
-      child: Row(
-        children: <Widget>[
-          RichText(
-            text: TextSpan(
-              children: [
-                TextSpan(
-                  text: "Chapter $chapterNumber : $name \n",
-                  style: TextStyle(
-                    fontSize: 16,
-                    color: kBlackColor,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                TextSpan(
-                  text: tag,
-                  style: TextStyle(color: kLightBlackColor),
-                ),
-              ],
-            ),
-          ),
-          Spacer(),
-          IconButton(
-            icon: Icon(
-              Icons.arrow_forward_ios,
-              size: 18,
-            ),
-            onPressed: press,
-          )
-        ],
-      ),
-    );
-  }
-}
-
-class BookInfo extends StatelessWidget {
-
-  const BookInfo({
-    Key key,
-    this.size,
-  }) : super(key: key);
-
-  final Size size;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Flex(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        direction: Axis.horizontal,
-        children: <Widget>[
-          Expanded(
-              flex: 1,
-              child: Column(
-                children: <Widget>[
-                  Container(
-                    alignment: Alignment.centerLeft,
-                    child: Text(
-                      "DevPrayag",
-                      // ignore: deprecated_member_use
-                      style: Theme.of(context).textTheme.headline.copyWith(
-                        fontSize: 28,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-//                Container(
-//                  margin: EdgeInsets.only(top: this.size.height * .005),
-//                  alignment: Alignment.centerLeft,
-//                  padding: EdgeInsets.only(top: 0),
-//                  child: Text(
-//                    "Influence",
-//                    // ignore: deprecated_member_use
-//                    style: Theme.of(context).textTheme.subtitle.copyWith(
-//                      fontSize: 25,
-//                      fontWeight: FontWeight.bold,
-//                    ),
-//                  ),
-//                ),
-                  Row(
-                    children: <Widget>[
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: <Widget>[
-                          Container(
-                            width: this.size.width * .3,
-                            padding: EdgeInsets.only(top: this.size.height * .02),
-                            child: Text(
-                              "When the earth was flat and everyone wanted to win the game of the best and people and winning with an A game with all the things you have.",
-                              maxLines: 5,
-                              style: TextStyle(
-                                fontSize: 10,
-                                color: kLightBlackColor,
-                              ),
-                            ),
-                          ),
-                          Container(
-                            margin: EdgeInsets.only(top: this.size.height * .015),
-                            padding: EdgeInsets.only(left: 10, right: 10),
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(30),
-                            ),
-                          )
-                        ],
-                      ),
-                    ],
-                  )
-                ],
-              )
-          ),
-          Expanded(
-              flex: 1,
-              child: Container(
-                color: Colors.transparent,
-                child: Image.asset(
-                  "assets/images/book-1.jpg",
-                  height: double.infinity,
-                  alignment: Alignment.topRight,
-                  fit: BoxFit.fitWidth,
-                ),
-              )),
-        ],
-      ),
-    );
-  }
 }
