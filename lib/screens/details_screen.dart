@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_ebook/Pages/page10.dart';
 import 'package:flutter_ebook/Pages/page11.dart';
 import 'package:flutter_ebook/Pages/page12.dart';
@@ -12,8 +13,6 @@ import 'package:flutter_ebook/Pages/page6.dart';
 import 'package:flutter_ebook/Pages/page7.dart';
 import 'package:flutter_ebook/Pages/page8.dart';
 import 'package:flutter_ebook/Pages/page9.dart';
-import 'package:flutter_ebook/consttants.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_ebook/screens/page.dart';
 
 class DetailsScreen extends StatefulWidget {
@@ -53,16 +52,15 @@ class _DetailsScreenState extends State<DetailsScreen> {
                     children: <Widget>[
                     Text('1',style: TextStyle(fontSize: 20),),
                   ],),
-                  GestureDetector(
-                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Page())),
-                    child: Column(children: <Widget>[
-                        Text('श्री गुरु ध्यानम्',style: TextStyle(fontSize: 20)),
+                      Column(children: <Widget>[
+                        GestureDetector(
+                            onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page())),
+                            child: Text('श्री गुरु ध्यानम्',style: TextStyle(fontSize: 20))),
                         Text('• प्रयोग प्रारंभः • आचम्य प्राणानायाम्य',style: TextStyle(fontSize: 20),),
                         Text('• शिखा बन्धनम् • स्वस्ति तिलक',style: TextStyle(fontSize: 20),),
                         Text('• कंकणबन्धनम् • पुष्पमाला',style: TextStyle(fontSize: 20),),
                         Text('• भद्रसूक्त - शान्तिपाठ – देवतानमस्कार',style: TextStyle(fontSize: 20),),
                       ],),
-                  ),
                   Column(children: <Widget>[
                     Text('01-13',style: TextStyle(fontSize: 20),)
                   ],)
