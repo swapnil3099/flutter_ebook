@@ -16,7 +16,7 @@ class _PageState extends State<Page4> {
     loadDocument();
   }
   loadDocument() async {
-    document = await PDFDocument.fromAsset('assets/pdf/4.pdf');
+    document = await PDFDocument.fromAsset('assets/pdf/4-2.pdf');
     setState(() => _isLoading = false);
   }
 

@@ -12,8 +12,8 @@ class Wrapper extends StatelessWidget {
     print(user);
 
     if(user == null){
-
-      return Authenticate();
+      //Authenticate() to done down
+      return WelcomeScreen();
     }
     else{
       return WelcomeScreen();

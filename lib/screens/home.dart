@@ -1,5 +1,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_ebook/screens/about.dart';
 import 'package:flutter_ebook/screens/profile.dart';
 import 'home_screen.dart';
 
@@ -36,7 +37,7 @@ class _HomeState extends State<Home> {
         height: 50,
         items: <Widget>[
           Icon(Icons.home,size: 20,color: Colors.black,),
-          Icon(Icons.star,size: 20,color: Colors.black,),
+          Icon(Icons.sentiment_satisfied,size: 20,color: Colors.black,),
           Icon(Icons.person,size: 20,color: Colors.black,),
         ],
         animationDuration: Duration(
@@ -51,7 +52,7 @@ class _HomeState extends State<Home> {
         onPageChanged: setBotNav,
         children: [
           HomeScreen(),
-          HomeScreen(),
+          About(),
           Profile(),
         ],
       ),
