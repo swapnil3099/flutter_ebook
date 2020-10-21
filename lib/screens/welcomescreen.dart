@@ -1,11 +1,10 @@
-import 'package:flutter_ebook/screens/home.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_ebook/screens/home.dart';
 import 'package:flutter_ebook/widgets/rounded_button.dart';
-import 'package:flutter_ebook/services/auth.dart';
 
 class WelcomeScreen extends StatelessWidget {
 
-  final AuthService _auth = AuthService();
+  //final AuthService _auth = AuthService();
   @override
   Widget build(BuildContext context) {
      return Scaffold(

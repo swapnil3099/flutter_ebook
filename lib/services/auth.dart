@@ -1,5 +1,4 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter_ebook/authenticate/register.dart';
 import 'package:flutter_ebook/models/user.dart';
 import 'package:flutter_ebook/services/database.dart';
 

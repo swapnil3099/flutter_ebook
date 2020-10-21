@@ -12,6 +12,11 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Profile'),
+        backgroundColor: Colors.orangeAccent,
+        centerTitle: true,
+      ),
       body: Center(
         child:RaisedButton(onPressed:() async{
           setState(() => loading = true);

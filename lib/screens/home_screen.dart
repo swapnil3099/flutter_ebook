@@ -1,8 +1,4 @@
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter_ebook/screens/details_screen.dart';
-import 'package:flutter_ebook/screens/page.dart';
-import 'package:flutter_ebook/screens/profile.dart';
-//import 'package:flutter_ebook/services/auth.dart';
 import 'package:flutter_ebook/widgets/reading_card_list.dart';
 import 'package:flutter/material.dart';
 import 'package:giffy_dialog/giffy_dialog.dart';
@@ -64,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Row(
                       children: <Widget>[
                         ReadingListCard(
-                          image: "assets/images/book-1.jpg",
+                          image: "assets/images/devprayagbook.png",
                           title: "DevPrayag",
                           auth: "Chandresh Bhatt",
                           rating: 4,

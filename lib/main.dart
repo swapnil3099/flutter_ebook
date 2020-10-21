@@ -1,8 +1,10 @@
+import 'package:animated_splash/animated_splash.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_ebook/consttants.dart';
 import 'package:flutter_ebook/services/auth.dart';
 import 'package:flutter_ebook/wrapper.dart';
-import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
 import 'models/user.dart';
 
 
@@ -23,7 +25,12 @@ class MyApp extends StatelessWidget {
             displayColor: kBlackColor,
           ),
         ),
-        home: Wrapper(),
+        home: AnimatedSplash(
+          imagePath: 'assets/icon/devicon.png',
+          home: Wrapper(),
+          duration: 2500,
+          type: AnimatedSplashType.StaticDuration,
+        ),
       ),
     );
   }
