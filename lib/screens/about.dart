@@ -12,17 +12,22 @@ class _AboutState extends State<About> {
   Widget build(BuildContext context) {
     return new MaterialApp(
       home: new Scaffold(
-          appBar: new AppBar(
-            backgroundColor: Colors.orangeAccent,
-            title: const Text('About'),
-            centerTitle: true,
-          ),
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.grey,
           body: Center(
               child: PdfDocumentLoader(
-                  assetName: 'assets/pdf/about.pdf',
-                  pageNumber: 1,
-                  pageBuilder: (context, textureBuilder, pageSize) => textureBuilder()
+                assetName: 'assets/pdf/newabout.pdf',
+                documentBuilder: (context, pdfDocument, pageCount) => LayoutBuilder(
+                    builder: (context, constraints) => ListView.builder(
+                        itemCount: pageCount,
+                        itemBuilder: (context, index) => Container(
+                            color: Colors.black12,
+                            child: PdfPageView(
+                              pdfDocument: pdfDocument,
+                              pageNumber: index + 1,
+                            )
+                        )
+                    )
+                ),
               )
           )
       ),

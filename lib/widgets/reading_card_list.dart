@@ -1,7 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_ebook/consttants.dart';
 import 'package:flutter_ebook/widgets/book_rating.dart';
 import 'package:flutter_ebook/widgets/two_side_rounded_button.dart';
-import 'package:flutter/material.dart';
 
 class ReadingListCard extends StatelessWidget {
   final String image;
@@ -75,6 +75,7 @@ class ReadingListCard extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
+                  SizedBox(height: 7,),
                   Padding(
                     padding: EdgeInsets.only(left: 24),
                     child: RichText(

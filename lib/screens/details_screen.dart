@@ -21,9 +21,6 @@ class _DetailsScreenState extends State<DetailsScreen> {
   get odd => Color.fromRGBO(223, 167, 166, 1);
   get tex => Color.fromRGBO(115, 53, 52, 1);
   get sr => Color.fromRGBO(148, 55, 52, 1);
-
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,7 +37,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
               Table(
                 columnWidths: {
                   0: FractionColumnWidth(.15),
-                  1: FractionColumnWidth(.6),
+                  1: FractionColumnWidth(.7),
                   2: FractionColumnWidth(.3)
                 },
                 border: TableBorder.all(color: Colors.white54, width: 1.0),
@@ -48,23 +45,30 @@ class _DetailsScreenState extends State<DetailsScreen> {
                   TableRow(
                       decoration: BoxDecoration(color: Color.fromRGBO(229, 185, 183, 1)),
                       children: [
-                        Text(
-                          'क्रम',
-                          style: TextStyle(fontSize: 22, color: Colors.white),
-                          textAlign: TextAlign.center,
-                        ),
-                        Text(
-                          'प्रयोग',
-                          style: TextStyle(fontSize: 22, color: Color.fromRGBO(115, 53, 52,1)),
-                          textAlign: TextAlign.center,
-                        ),
-                        Text(
-                          'पेजनं.',
-                          style: TextStyle(
-                            fontSize: 22,
-                            color: Color.fromRGBO(115, 53, 52,1),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'क्रम',
+                            style: TextStyle(fontSize: 22, color: Colors.white),
+                            textAlign: TextAlign.center,
                           ),
-                          textAlign: TextAlign.center,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'प्रयोग',
+                            style: TextStyle(fontSize: 22, color: Color.fromRGBO(115, 53, 52,1)),
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'पेजनं.',
+                            style: TextStyle(
+                              fontSize: 22,
+                              color: Color.fromRGBO(115, 53, 52,1)),
+                          ),
                         ),
                       ]),
                   TableRow(
@@ -163,11 +167,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                         GestureDetector(
                           onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page())),
                           child: Container(
-                            alignment: Alignment.center,
-                            padding: const EdgeInsets.only(top: 5.0),
+                            padding: const EdgeInsets.only(left:2,top: 5),
                             child: Text(
                               '01-13',
-                              style: TextStyle(fontSize: 20,color: tex),
+                              style: TextStyle(fontSize: 18,color: tex),
                             ),
                           ),
                         )
@@ -221,11 +224,11 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page2())),
                           child: Container(
-                            alignment: Alignment.center,
-                            padding: const EdgeInsets.only(top: 5.0),
+
+                            padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
                               '14-18',
-                              style: TextStyle(fontSize: 20,color: tex),
+                              style: TextStyle(fontSize: 18,color: tex),
                             ),
                           ),
                         )
@@ -337,11 +340,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page3())),
                           child: Container(
-                            alignment: Alignment.center,
-                            padding: const EdgeInsets.only(top: 5.0),
+                            padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
                               '19-27',
-                              style: TextStyle(fontSize: 20, color: Color.fromRGBO(115, 53, 52, 1)),
+                              style: TextStyle(fontSize: 18, color: Color.fromRGBO(115, 53, 52, 1)),
                             ),
                           ),
                         )
@@ -433,11 +435,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page4())),
                           child: Container(
-                            alignment: Alignment.center,
-                            padding: const EdgeInsets.only(top: 5.0),
+                            padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
                               '27-31',
-                              style: TextStyle(fontSize: 20,color: tex),
+                              style: TextStyle(fontSize: 18,color: tex),
                             ),
                           ),
                         )
@@ -502,11 +503,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page5())),
                           child: Container(
-                            alignment: Alignment.center,
-                            padding: const EdgeInsets.only(top: 5.0),
+                            padding: const EdgeInsets.only(top: 5.0,left:2),
                             child: Text(
                               '32-37',
-                              style: TextStyle(fontSize: 20,color: tex),
+                              style: TextStyle(fontSize: 18,color: tex),
                             ),
                           ),
                         )
@@ -588,11 +588,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page6())),
                           child: Container(
-                            alignment: Alignment.center,
-                            padding: const EdgeInsets.only(top: 5.0),
+                            padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
                               '37-47',
-                              style: TextStyle(fontSize: 20,color: tex),
+                              style: TextStyle(fontSize: 18,color: tex),
                             ),
                           ),
                         )
@@ -647,11 +646,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page7())),
                           child: Container(
-                            alignment: Alignment.center,
-                            padding: const EdgeInsets.only(top: 5.0),
+                            padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
                               '48-78',
-                              style: TextStyle(fontSize: 20,color: tex),
+                              style: TextStyle(fontSize: 18,color: tex),
                             ),
                           ),
                         )
@@ -707,11 +705,11 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page8())),
                           child: Container(
-                            alignment: Alignment.center,
-                            padding: const EdgeInsets.only(top: 5.0),
+
+                            padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
                               '79-105',
-                              style: TextStyle(fontSize: 20,color: tex),
+                              style: TextStyle(fontSize: 18,color: tex),
                             ),
                           ),
                         )
@@ -799,11 +797,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page9())),
                           child: Container(
-                            alignment: Alignment.center,
-                            padding: const EdgeInsets.only(top: 5.0),
+                            padding: const EdgeInsets.only(top: 15.0,left: 2),
                             child: Text(
                               '106-127',
-                              style: TextStyle(fontSize: 20,color: tex),
+                              style: TextStyle(fontSize: 15,color: tex),
                             ),
                           ),
                         )
@@ -873,11 +870,11 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page10())),
                           child: Container(
-                            alignment: Alignment.center,
-                            padding: const EdgeInsets.only(top: 5.0),
+
+                            padding: const EdgeInsets.only(top: 15.0,left: 2),
                             child: Text(
                               '128-150',
-                              style: TextStyle(fontSize: 20,color: tex),
+                              style: TextStyle(fontSize: 15,color: tex),
                             ),
                           ),
                         )
@@ -931,8 +928,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page11())),
                           child: Container(
-                            alignment: Alignment.center,
-                            padding: const EdgeInsets.only(top: 5.0),
+                            padding: const EdgeInsets.only(top: 5.0,left: 5),
                             child: Text(
                               '151',
                               style: TextStyle(fontSize: 20,color: tex),

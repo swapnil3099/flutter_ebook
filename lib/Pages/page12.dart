@@ -1,6 +1,6 @@
-import 'package:flutter_ebook/consttants.dart';
-import 'package:flutter/material.dart';
 import 'package:advance_pdf_viewer/advance_pdf_viewer.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_ebook/consttants.dart';
 
 class Page12 extends StatefulWidget {
   @override
@@ -16,7 +16,7 @@ class _PageState extends State<Page12> {
     loadDocument();
   }
   loadDocument() async {
-    document = await PDFDocument.fromAsset('assets/pdf/3.pdf');
+    document = await PDFDocument.fromAsset('assets/pdf/master.pdf');
     setState(() => _isLoading = false);
   }
 
