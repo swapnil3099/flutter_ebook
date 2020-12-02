@@ -15,7 +15,7 @@ class _AboutState extends State<About> {
           backgroundColor: Colors.grey,
           body: Center(
               child: PdfDocumentLoader(
-                assetName: 'assets/pdf/newabout.pdf',
+                assetName: 'assets/pdf/aboutfin.pdf',
                 documentBuilder: (context, pdfDocument, pageCount) => LayoutBuilder(
                     builder: (context, constraints) => ListView.builder(
                         itemCount: pageCount,

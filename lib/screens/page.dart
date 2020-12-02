@@ -1,7 +1,7 @@
 import 'package:advance_pdf_viewer/advance_pdf_viewer.dart';
 import 'package:flutter/material.dart';
-import 'package:splashscreen/splashscreen.dart';
 import 'package:flutter_ebook/consttants.dart';
+import 'package:splashscreen/splashscreen.dart';
 
 class Page1 extends StatefulWidget {
   @override
@@ -19,10 +19,10 @@ class _Page1State extends State<Page1> {
       //     fontWeight: FontWeight.bold,
       //     fontSize: 20.0
       //  ),),
-      image: new Image.asset('assets/images/1.png'),
+      image: new Image.asset('assets/images/11.png'),
       backgroundColor: Colors.orangeAccent,
       styleTextUnderTheLoader: new TextStyle(),
-      photoSize: 328.0,
+      photoSize: 350.0,
 
     );
 
@@ -38,7 +38,32 @@ class _AfterSplash1State extends State<AfterSplash1> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 3,
+        seconds: 2,
+        navigateAfterSeconds: new AfterSplash2(),
+    //title: new Text('Welcome In SplashScreen',
+    //   style: new TextStyle(
+    //     fontWeight: FontWeight.bold,
+    //     fontSize: 20.0
+    //  ),),
+    image: new Image.asset('assets/images/1.png'),
+    backgroundColor: Colors.orangeAccent,
+    styleTextUnderTheLoader: new TextStyle(),
+    photoSize: 328.0,
+    );
+  }
+}
+
+
+class AfterSplash2 extends StatefulWidget {
+  @override
+  _AfterSplash2State createState() => _AfterSplash2State();
+}
+
+class _AfterSplash2State extends State<AfterSplash2> {
+  @override
+  Widget build(BuildContext context) {
+    return new SplashScreen(
+      seconds: 2,
       navigateAfterSeconds: new AfterSplash(),
       image: new Image.asset('assets/images/2.png'),
       backgroundColor: Colors.orangeAccent,

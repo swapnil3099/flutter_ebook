@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ebook/Pages/page10.dart';
 import 'package:flutter_ebook/Pages/page11.dart';
@@ -30,54 +31,68 @@ class _DetailsScreenState extends State<DetailsScreen> {
           margin: EdgeInsets.all(10),
           child: Column(
             children: [
-              SizedBox(height: 20.0,),
-              Text("✡ अनुक्रमाणिका ✡", style: TextStyle(
-                  fontSize: 24.0, fontWeight: FontWeight.bold, color: tex)),
-              SizedBox(height: 5.0,),
+              SizedBox(height: 30.0,),
+             // Text("✡ अनुक्रमाणिका ✡", style: TextStyle(
+               //   fontSize: 24.0, fontWeight: FontWeight.bold, color: tex)),
+              //SizedBox(height: 5.0,),
               Table(
-                columnWidths: {
-                  0: FractionColumnWidth(.15),
-                  1: FractionColumnWidth(.7),
-                  2: FractionColumnWidth(.3)
-                },
-                border: TableBorder.all(color: Colors.white54, width: 1.0),
+                border: TableBorder.all(color: Colors.black, width: 1.0),
                 children: [
                   TableRow(
-                      decoration: BoxDecoration(color: Color.fromRGBO(229, 185, 183, 1)),
+                      decoration: BoxDecoration(color: Color.fromRGBO(255, 192, 0, 1)),
+                    children: [
+                      Padding(padding: const EdgeInsets.all(8),
+                      child: Text("विषय-सूची",style: TextStyle(fontSize: 22,),
+                      textAlign: TextAlign.center,)
+                      )
+                    ]
+                  ),
+                ],
+              ),
+              Table(
+                columnWidths: {
+                  0: FractionColumnWidth(.12),
+                  1: FractionColumnWidth(.73),
+                  2: FractionColumnWidth(.3)
+                },
+                border: TableBorder.all(color: Colors.black, width: 1.0),
+                children: [
+
+                  TableRow(
+                      decoration: BoxDecoration(color: Color.fromRGBO(255, 192, 0, 1)),
                       children: [
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            'क्रम',
-                            style: TextStyle(fontSize: 22, color: Colors.white),
+                            'क्रम',style: TextStyle(
+                            fontSize: 22,),
                             textAlign: TextAlign.center,
                           ),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            'प्रयोग',
-                            style: TextStyle(fontSize: 22, color: Color.fromRGBO(115, 53, 52,1)),
+                            'प्रयोग',style: TextStyle(
+                            fontSize: 22,),
                             textAlign: TextAlign.center,
                           ),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            'पेजनं.',
+                            'पृष्ठ सं.',
                             style: TextStyle(
-                              fontSize: 22,
-                              color: Color.fromRGBO(115, 53, 52,1)),
+                              fontSize: 20,),
                           ),
                         ),
                       ]),
                   TableRow(
                       decoration: BoxDecoration(
-                          color: Color.fromRGBO(223, 167, 166,1),
+                          color: Color.fromRGBO(255, 242, 204,1),
                       ),
                       children: [
                         Container(
-                          color: Color.fromRGBO(148, 55, 52,1),
+
                           child: Column(
                             children: [
                               Padding(
@@ -85,19 +100,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                 child: Text(
                                   '1',
                                   style: TextStyle(
-                                      fontSize: 20, color: Colors.white),
+                                      fontSize: 18, ),
                                   textAlign: TextAlign.center,
                                 ),
                               ),
-                              Text(" "),
-                              Text(" "),
-                              Text(" "),
-                              Text(" "),
-                              Text(" "),
-                              Text(" "),
-                              Text(" "),
-                              Text(" "),
-                              Text(" "),
                             ],
                           ),
                         ),
@@ -112,54 +118,18 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                       Navigator.push(context,
                                           MaterialPageRoute(
                                               builder: (context) => Page1())),
-                                  child: Text('श्री गुरु ध्यानम्',
+                                  child: Text('श्री गुरु ध्यानम् ,मुहूर्त प्रकरणम्',
                                       style: TextStyle(
-                                          fontSize: 20,
-                                          fontWeight: FontWeight.bold,
-                                          color: Color.fromRGBO(115, 53, 52, 1)
+                                          fontSize: 18,
                                       ))),
                               Row(
                                 children: [
                                   Text(
-                                    '•प्रयोग प्रारंभः ',
+                                    'पंचाग विषयक जानकारी - ',
                                     style: TextStyle(fontSize: 18),
                                   ),
                                   SizedBox(width: 4.0,),
-                                  Text(
-                                    '•आचम्य प्राणानायाम्य',
-                                    style: TextStyle(fontSize: 18),
-                                  ),
                                 ],
-                              ),
-                              Row(
-                                children: [
-                                  Text(
-                                    '•शिखा बन्धनम् ',
-                                    style: TextStyle(fontSize: 20),
-                                  ),
-                                  SizedBox(width: 4.0,),
-                                  Text(
-                                    '•स्वस्ति तिलक',
-                                    style: TextStyle(fontSize: 20),
-                                  ),
-                                ],
-                              ),
-                              Row(
-                                children: [
-                                  Text(
-                                    '•कंकणबन्धनम् ',
-                                    style: TextStyle(fontSize: 20),
-                                  ),
-                                  SizedBox(width: 4.0,),
-                                  Text(
-                                    '•पुष्पमाला',
-                                    style: TextStyle(fontSize: 20),
-                                  ),
-                                ],
-                              ),
-                              Text(
-                                '•भद्रसूक्त-शान्तिपाठ–देवतानमस्कार',
-                                style: TextStyle(fontSize: 20),
                               ),
                             ],
                           ),
@@ -169,8 +139,8 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           child: Container(
                             padding: const EdgeInsets.only(left:2,top: 5),
                             child: Text(
-                              '01-13',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              '01-38',
+                              style: TextStyle(fontSize: 18,),
                             ),
                           ),
                         )

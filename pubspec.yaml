@@ -39,7 +39,7 @@ dependencies:
   advance_pdf_viewer:
   progress_indicators:
   giffy_dialog: any
-  animated_splash:
+  animated_splash: ^1.0.0
 
 dev_dependencies:
   flutter_test:
