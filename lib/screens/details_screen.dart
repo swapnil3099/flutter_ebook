@@ -111,7 +111,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page())),
+                                              builder: (context) => Page1())),
                                   child: Text('श्री गुरु ध्यानम्',
                                       style: TextStyle(
                                           fontSize: 20,
@@ -165,7 +165,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           ),
                         ),
                         GestureDetector(
-                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page())),
+                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page1())),
                           child: Container(
                             padding: const EdgeInsets.only(left:2,top: 5),
                             child: Text(
