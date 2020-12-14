@@ -20,7 +20,10 @@ class _ProfileState extends State<Profile> {
       body: Center(
         child:RaisedButton(onPressed:() async{
           setState(() => loading = true);
-          await _auth.signOut();Navigator.popUntil(context, ModalRoute.withName('/'),);},child: Text('Log Out'),),
+          //await _auth.signOut();
+          //Navigator.popUntil(context, ModalRoute.withName('/'),);
+          },
+          child: Text('Log Out'),),
       ),
     );
   }
