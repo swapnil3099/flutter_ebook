@@ -1360,6 +1360,554 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           ),
                         )
                       ]),
+                  TableRow(
+                      decoration: BoxDecoration(
+                          color: odd
+                      ),
+                      children: [
+                        Container(
+                          color: sr,
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(top: 5),
+                                child: Text(
+                                  '20',
+                                  style: TextStyle(
+                                    fontSize: 18,),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 2, top: 5),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              GestureDetector(
+                                  onTap: () =>
+                                      Navigator.push(context,
+                                          MaterialPageRoute(
+                                              builder: (context) => Page11())),
+                                  child: Text('विष्णु -• विष्णुपीठदेवताः • विष्णुयन्त्रदेवताः',
+                                      style: TextStyle(
+                                        fontSize: 17,
+                                      ))),
+                              Row(
+                                children: [
+                                  Text('• भूशुध्यादिप्रयोगः',style: TextStyle(
+                                    fontSize: 18,)),
+                                  SizedBox(width: 4,),
+                                  Text('• एकादशन्यासाः',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  Text('• पात्रासादनम्',style: TextStyle(
+                                    fontSize: 18,)),
+                                  SizedBox(width: 4,),
+                                  Text('• विष्णुराजोपचारपूजन',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () =>
+                              Navigator.push(context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Page11())),
+                          child: Container(
+                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            child: Text(
+                              '498-589',
+                              style: TextStyle(fontSize: 18,color: tex),
+                            ),
+                          ),
+                        )
+                      ]),
+                  TableRow(
+                      decoration: BoxDecoration(
+                          color: odd
+                      ),
+                      children: [
+                        Container(
+                          color: sr,
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(top: 5),
+                                child: Text(
+                                  '21',
+                                  style: TextStyle(
+                                    fontSize: 18,),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 2, top: 5),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              GestureDetector(
+                                  onTap: () =>
+                                      Navigator.push(context,
+                                          MaterialPageRoute(
+                                              builder: (context) => Page11())),
+                                  child: Text('गणेश -',
+                                      style: TextStyle(
+                                        fontSize: 18,
+                                      ))),
+                              Row(
+                                children: [
+                                  Text('• गणेशपीठदेवताः',style: TextStyle(
+                                    fontSize: 18,)),
+                                  SizedBox(width: 4,),
+                                  Text('• गणेशयन्त्रदेवताः',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  Text('• भूशुध्यादिप्रयोगः',style: TextStyle(
+                                    fontSize: 18,)),
+                                  SizedBox(width: 4,),
+                                  Text('• एकादशन्यासाः',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  Text('• पात्रासादनम्',style: TextStyle(
+                                    fontSize: 18,)),
+                                  SizedBox(width: 4,),
+                                  Text('• महागणपतिपूजन',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () =>
+                              Navigator.push(context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Page11())),
+                          child: Container(
+                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            child: Text(
+                              '590-658',
+                              style: TextStyle(fontSize: 18,color: tex),
+                            ),
+                          ),
+                        )
+                      ]),
+                  TableRow(
+                      decoration: BoxDecoration(
+                          color: odd
+                      ),
+                      children: [
+                        Container(
+                          color: sr,
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(top: 5),
+                                child: Text(
+                                  '22',
+                                  style: TextStyle(
+                                    fontSize: 18,),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 2, top: 5),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              GestureDetector(
+                                  onTap: () =>
+                                      Navigator.push(context,
+                                          MaterialPageRoute(
+                                              builder: (context) => Page11())),
+                                  child: Text('सूर्य -',
+                                      style: TextStyle(
+                                        fontSize: 18,
+                                      ))),
+                              Row(
+                                children: [
+                                  Text('• सूर्यपीठदेवताः',style: TextStyle(
+                                    fontSize: 18,)),
+                                  SizedBox(width: 4,),
+                                  Text('• सूर्ययन्त्रदेवताः',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  Text('• सूर्यदेवमहापूजा ',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () =>
+                              Navigator.push(context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Page11())),
+                          child: Container(
+                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            child: Text(
+                              '659-687',
+                              style: TextStyle(fontSize: 18,color: tex),
+                            ),
+                          ),
+                        )
+                      ]),
+                  TableRow(
+                      decoration: BoxDecoration(
+                          color: odd
+                      ),
+                      children: [
+                        Container(
+                          color: sr,
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(top: 5),
+                                child: Text(
+                                  '23',
+                                  style: TextStyle(
+                                    fontSize: 18,),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 2, top: 5),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              GestureDetector(
+                                  onTap: () =>
+                                      Navigator.push(context,
+                                          MaterialPageRoute(
+                                              builder: (context) => Page11())),
+                                  child: Text('रुद्र - • रुद्रपीठदेवताः • रुद्रयन्त्रदेवताः',
+                                      style: TextStyle(
+                                        fontSize: 18,
+                                      ))),
+                              Row(
+                                children: [
+                                  Text('• भूशुध्यादिप्रयोगः',style: TextStyle(
+                                    fontSize: 18,)),
+                                  SizedBox(width: 4,),
+                                  Text('• महान्यासप्रयोगः',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  Text('• रुद्रपूजनप्रयोगः',style: TextStyle(
+                                    fontSize: 18,)),
+                                  SizedBox(width: 4,),
+                                  Text('• पञ्चवक्त्रपूजन्',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  Text('• पात्रासादनम्',style: TextStyle(
+                                    fontSize: 18,)),
+                                  SizedBox(width: 4,),
+                                  Text('• शिवपूजनम्',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () =>
+                              Navigator.push(context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Page11())),
+                          child: Container(
+                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            child: Text(
+                              '688-779',
+                              style: TextStyle(fontSize: 18,color: tex),
+                            ),
+                          ),
+                        )
+                      ]),
+                  TableRow(
+                      decoration: BoxDecoration(
+                          color: odd
+                      ),
+                      children: [
+                        Container(
+                          color: sr,
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(top: 5),
+                                child: Text(
+                                  '24',
+                                  style: TextStyle(
+                                    fontSize: 18,),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 2, top: 5),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              GestureDetector(
+                                  onTap: () =>
+                                      Navigator.push(context,
+                                          MaterialPageRoute(
+                                              builder: (context) => Page11())),
+                                  child: Text('• कुण्डपूजन •पञ्चभूसंस्कार',
+                                      style: TextStyle(
+                                        fontSize: 18,
+                                      ))),
+                              Row(
+                                children: [
+                                  Text('• अग्निप्रतिष्ठापनम्',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () =>
+                              Navigator.push(context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Page11())),
+                          child: Container(
+                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            child: Text(
+                              '780-803',
+                              style: TextStyle(fontSize: 18,color: tex),
+                            ),
+                          ),
+                        )
+                      ]),
+                  TableRow(
+                      decoration: BoxDecoration(
+                          color: odd
+                      ),
+                      children: [
+                        Container(
+                          color: sr,
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(top: 5),
+                                child: Text(
+                                  '25',
+                                  style: TextStyle(
+                                    fontSize: 18,),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 2, top: 5),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              GestureDetector(
+                                  onTap: () =>
+                                      Navigator.push(context,
+                                          MaterialPageRoute(
+                                              builder: (context) => Page11())),
+                                  child: Text('नवग्रहादिस्थापनपूजनप्रयोगः',
+                                      style: TextStyle(
+                                        fontSize: 18,
+                                      ))),
+                              Row(
+                                children: [
+                                  Text('शेषादिमनुष्यान्तग्रहपीठस्थविशेषदेवतानामावाहनम्',style: TextStyle(
+                                    fontSize: 15,)),
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  Text('• कुशकण्डिका',style: TextStyle(
+                                    fontSize: 18,)),
+                                  SizedBox(width: 4,),
+                                  Text('• वराहुतिः',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () =>
+                              Navigator.push(context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Page11())),
+                          child: Container(
+                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            child: Text(
+                              '804-844',
+                              style: TextStyle(fontSize: 18,color: tex),
+                            ),
+                          ),
+                        )
+                      ]),
+                  TableRow(
+                      decoration: BoxDecoration(
+                          color: odd
+                      ),
+                      children: [
+                        Container(
+                          color: sr,
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(top: 5),
+                                child: Text(
+                                  '26',
+                                  style: TextStyle(
+                                    fontSize: 18,),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 2, top: 5),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              GestureDetector(
+                                  onTap: () =>
+                                      Navigator.push(context,
+                                          MaterialPageRoute(
+                                              builder: (context) => Page11())),
+                                  child: Text('नवग्रहादिनांहोमः',
+                                      style: TextStyle(
+                                        fontSize: 18,
+                                      ))),
+
+                            ],
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () =>
+                              Navigator.push(context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Page11())),
+                          child: Container(
+                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            child: Text(
+                              '845-850',
+                              style: TextStyle(fontSize: 18,color: tex),
+                            ),
+                          ),
+                        )
+                      ]),
+                  TableRow(
+                      decoration: BoxDecoration(
+                          color: odd
+                      ),
+                      children: [
+                        Container(
+                          color: sr,
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(top: 5),
+                                child: Text(
+                                  '27',
+                                  style: TextStyle(
+                                    fontSize: 18,),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 1, top: 5),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              GestureDetector(
+                                  onTap: () =>
+                                      Navigator.push(context,
+                                          MaterialPageRoute(
+                                              builder: (context) => Page11())),
+                                  child: Text('अथ प्रधानदेवीहोमः • वास्तुमण्डलदेवतानांहोमः',
+                                      style: TextStyle(
+                                        fontSize: 16.5,
+                                      ))),
+                              Row(
+                                children: [
+                                  Text('• ब्रह्मादिसर्वतोभद्रमण्डलदेवतानांहोमः',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                              Row(
+                                children: [
+                                  Text('• पीठदेवतानांहोमः',style: TextStyle(
+                                    fontSize: 18,)),
+                                  SizedBox(width: 4,),
+                                  Text('• आवरणदेवतानांहोमः',style: TextStyle(
+                                    fontSize: 18,)),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () =>
+                              Navigator.push(context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Page11())),
+                          child: Container(
+                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            child: Text(
+                              '851-872',
+                              style: TextStyle(fontSize: 18,color: tex),
+                            ),
+                          ),
+                        )
+                      ]),
 
 
 
