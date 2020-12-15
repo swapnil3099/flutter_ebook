@@ -345,7 +345,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                       Navigator.push(context,
                                           MaterialPageRoute(
                                               builder: (context) => Page5())),
-                                  child: Text(' नूतनयज्ञोपवीतधारणविधिः ',
+                                  child: Text('नूतनयज्ञोपवीतधारणविधिः',
                                       style: TextStyle(
                                           fontSize: 18,
                                       ))),
