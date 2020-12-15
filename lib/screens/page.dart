@@ -22,7 +22,7 @@ class _Page1State extends State<Page1> {
       image: new Image.asset('assets/images/11.png'),
       backgroundColor: Colors.orangeAccent,
       styleTextUnderTheLoader: new TextStyle(),
-      photoSize: 350.0,
+      photoSize: 320.0,
 
     );
 
