@@ -95,7 +95,7 @@ class _AfterSplashState extends State<AfterSplash> {
     return  MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('मुहूर्तप्रकरणम् / भूमिपूजन प्रयोग'),
+          title: Text('Dev Prayag'),
           backgroundColor:kProgressIndicator,
           centerTitle: true,
         ),

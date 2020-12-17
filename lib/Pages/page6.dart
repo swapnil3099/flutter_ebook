@@ -5,10 +5,10 @@ import 'package:splashscreen/splashscreen.dart';
 
 class Page6 extends StatefulWidget {
   @override
-  _PageState createState() => _PageState();
+  _Page6State createState() => _Page6State();
 }
 
-class _PageState extends State<Page6> {
+class _Page6State extends State<Page6> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
@@ -19,12 +19,13 @@ class _PageState extends State<Page6> {
       //     fontWeight: FontWeight.bold,
       //     fontSize: 20.0
       //  ),),
-      image: new Image.asset('assets/images/1.png'),
+      image: new Image.asset('assets/images/11.png'),
       backgroundColor: Colors.orangeAccent,
       styleTextUnderTheLoader: new TextStyle(),
-      photoSize: 328.0,
+      photoSize: 320.0,
 
     );
+
   }
 }
 
@@ -37,7 +38,32 @@ class _AfterSplash1State extends State<AfterSplash1> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 3,
+      seconds: 2,
+      navigateAfterSeconds: new AfterSplash2(),
+      //title: new Text('Welcome In SplashScreen',
+      //   style: new TextStyle(
+      //     fontWeight: FontWeight.bold,
+      //     fontSize: 20.0
+      //  ),),
+      image: new Image.asset('assets/images/1.png'),
+      backgroundColor: Colors.orangeAccent,
+      styleTextUnderTheLoader: new TextStyle(),
+      photoSize: 328.0,
+    );
+  }
+}
+
+
+class AfterSplash2 extends StatefulWidget {
+  @override
+  _AfterSplash2State createState() => _AfterSplash2State();
+}
+
+class _AfterSplash2State extends State<AfterSplash2> {
+  @override
+  Widget build(BuildContext context) {
+    return new SplashScreen(
+      seconds: 2,
       navigateAfterSeconds: new AfterSplash(),
       image: new Image.asset('assets/images/2.png'),
       backgroundColor: Colors.orangeAccent,
@@ -53,7 +79,6 @@ class AfterSplash extends StatefulWidget {
 }
 
 class _AfterSplashState extends State<AfterSplash> {
-
   bool _isLoading = true;
   PDFDocument document;
   void initState() {
@@ -67,10 +92,10 @@ class _AfterSplashState extends State<AfterSplash> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('दीपपूजनम्'),
+          title: Text('Dev Prayag'),
           backgroundColor:kProgressIndicator,
           centerTitle: true,
         ),
@@ -122,3 +147,5 @@ class _AfterSplashState extends State<AfterSplash> {
     );
   }
 }
+
+

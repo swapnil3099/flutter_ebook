@@ -2,7 +2,17 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ebook/Pages/page10.dart';
 import 'package:flutter_ebook/Pages/page11.dart';
+import 'package:flutter_ebook/Pages/page12.dart';
+import 'package:flutter_ebook/Pages/page13.dart';
+import 'package:flutter_ebook/Pages/page14.dart';
+import 'package:flutter_ebook/Pages/page15.dart';
+import 'package:flutter_ebook/Pages/page16.dart';
+import 'package:flutter_ebook/Pages/page17.dart';
+import 'package:flutter_ebook/Pages/page18.dart';
+import 'package:flutter_ebook/Pages/page19.dart';
 import 'package:flutter_ebook/Pages/page2.dart';
+import 'package:flutter_ebook/Pages/page20.dart';
+import 'package:flutter_ebook/Pages/page21.dart';
 import 'package:flutter_ebook/Pages/page3.dart';
 import 'package:flutter_ebook/Pages/page4.dart';
 import 'package:flutter_ebook/Pages/page5.dart';
@@ -817,7 +827,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => Page12())),
                                   child: Text('गौर्यादिमातृकास्थापनम्',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -847,7 +857,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => Page12())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -888,7 +898,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => Page13())),
                                   child: Text('आचार्यादिऋत्विग्वरणम्',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -912,7 +922,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => Page13())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -953,7 +963,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => Page14())),
                                   child: Text('• मण्डपप्रवेश • वर्धिनीकलशपूजनम्',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -983,7 +993,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => Page14())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -1024,7 +1034,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => Page15())),
                                   child: Text('वास्तुपूजन',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1072,7 +1082,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => Page15())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -1113,7 +1123,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => Page16())),
                                   child: Text('• वास्तुमंडूकादिपीठदेवताः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1161,7 +1171,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => Page16())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -1202,7 +1212,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => Page17())),
                                   child: Text('जलयात्राप्रयोगः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1214,7 +1224,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => Page17())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -1255,7 +1265,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => Page18())),
                                   child: Text('सर्वतोभद्रमण्डलदेवतास्थापनम्',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1267,7 +1277,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => Page18())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -1308,7 +1318,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => Page19())),
                                   child: Text('देवी - • देवीपीठदेवताः • देवीयन्त्रदेवताः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1350,7 +1360,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => Page19())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -1391,7 +1401,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => Page20())),
                                   child: Text('विष्णु -• विष्णुपीठदेवताः • विष्णुयन्त्रदेवताः',
                                       style: TextStyle(
                                         fontSize: 17,
@@ -1421,7 +1431,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => Page20())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -1462,7 +1472,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => Page21())),
                                   child: Text('गणेश -',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1501,7 +1511,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => Page21())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(

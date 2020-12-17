@@ -5,11 +5,10 @@ import 'package:splashscreen/splashscreen.dart';
 
 class Page10 extends StatefulWidget {
   @override
-  _PageState createState() => _PageState();
+  _Page10State createState() => _Page10State();
 }
 
-class _PageState extends State<Page10> {
-
+class _Page10State extends State<Page10> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
@@ -20,12 +19,13 @@ class _PageState extends State<Page10> {
       //     fontWeight: FontWeight.bold,
       //     fontSize: 20.0
       //  ),),
-      image: new Image.asset('assets/images/1.png'),
+      image: new Image.asset('assets/images/11.png'),
       backgroundColor: Colors.orangeAccent,
       styleTextUnderTheLoader: new TextStyle(),
-      photoSize: 328.0,
+      photoSize: 320.0,
 
     );
+
   }
 }
 
@@ -38,7 +38,32 @@ class _AfterSplash1State extends State<AfterSplash1> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 3,
+      seconds: 2,
+      navigateAfterSeconds: new AfterSplash2(),
+      //title: new Text('Welcome In SplashScreen',
+      //   style: new TextStyle(
+      //     fontWeight: FontWeight.bold,
+      //     fontSize: 20.0
+      //  ),),
+      image: new Image.asset('assets/images/1.png'),
+      backgroundColor: Colors.orangeAccent,
+      styleTextUnderTheLoader: new TextStyle(),
+      photoSize: 328.0,
+    );
+  }
+}
+
+
+class AfterSplash2 extends StatefulWidget {
+  @override
+  _AfterSplash2State createState() => _AfterSplash2State();
+}
+
+class _AfterSplash2State extends State<AfterSplash2> {
+  @override
+  Widget build(BuildContext context) {
+    return new SplashScreen(
+      seconds: 2,
       navigateAfterSeconds: new AfterSplash(),
       image: new Image.asset('assets/images/2.png'),
       backgroundColor: Colors.orangeAccent,
@@ -48,14 +73,12 @@ class _AfterSplash1State extends State<AfterSplash1> {
   }
 }
 
-
 class AfterSplash extends StatefulWidget {
   @override
   _AfterSplashState createState() => _AfterSplashState();
 }
 
 class _AfterSplashState extends State<AfterSplash> {
-
   bool _isLoading = true;
   PDFDocument document;
   void initState() {
@@ -63,17 +86,16 @@ class _AfterSplashState extends State<AfterSplash> {
     loadDocument();
   }
   loadDocument() async {
-    document = await PDFDocument.fromAsset('assets/pdf/master10.pdf');
+    document = await PDFDocument.fromAsset('assets/pdf/master5.pdf');
     setState(() => _isLoading = false);
   }
 
-
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('आचार्यादिऋत्विग्वरणम्'),
+          title: Text('Dev Prayag'),
           backgroundColor:kProgressIndicator,
           centerTitle: true,
         ),
@@ -125,3 +147,5 @@ class _AfterSplashState extends State<AfterSplash> {
     );
   }
 }
+
+

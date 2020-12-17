@@ -95,7 +95,7 @@ class _AfterSplashState extends State<AfterSplash> {
     return  MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('सर्वप्रायश्चित प्रयोगः'),
+          title: Text('Dev Prayag'),
           backgroundColor:kProgressIndicator,
           centerTitle: true,
         ),
