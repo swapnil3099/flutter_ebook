@@ -13,6 +13,7 @@ import 'package:flutter_ebook/Pages/page19.dart';
 import 'package:flutter_ebook/Pages/page2.dart';
 import 'package:flutter_ebook/Pages/page20.dart';
 import 'package:flutter_ebook/Pages/page21.dart';
+import 'package:flutter_ebook/Pages/page22.dart';
 import 'package:flutter_ebook/Pages/page3.dart';
 import 'package:flutter_ebook/Pages/page4.dart';
 import 'package:flutter_ebook/Pages/page5.dart';
@@ -628,7 +629,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
                             child: Text(
                               '100-120',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16,color: tex),
                             ),
                           ),
                         )
@@ -682,7 +683,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '121-127',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -737,7 +738,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '128-158',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -791,7 +792,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '159-185',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -862,7 +863,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '186-207',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -927,7 +928,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '208-231',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -998,7 +999,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '232-246',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1087,7 +1088,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '247-286',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1176,7 +1177,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '287-314',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1229,7 +1230,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '315-330',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1282,7 +1283,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '331-366',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1365,7 +1366,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '367-497',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1436,7 +1437,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '498-589',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1516,7 +1517,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '590-658',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1552,7 +1553,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => Page22())),
                                   child: Text('सूर्य -',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1579,12 +1580,12 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => Page22())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '659-687',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1664,7 +1665,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '688-779',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1723,7 +1724,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '780-803',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1791,7 +1792,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '804-844',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1845,7 +1846,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '845-850',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1913,7 +1914,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '851-872',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -1975,7 +1976,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '872-884',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -2037,7 +2038,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '884-893',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -2099,7 +2100,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '893-901',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -2161,7 +2162,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '901-956',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -2229,10 +2230,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page11())),
                           child: Container(
-                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            padding: const EdgeInsets.only(top: 5.0,left: 1),
                             child: Text(
                               '956-978',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -2300,10 +2301,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page11())),
                           child: Container(
-                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            padding: const EdgeInsets.only(top: 5.0,left: 1),
                             child: Text(
                               '978-992',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -2359,10 +2360,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => Page11())),
                           child: Container(
-                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            padding: const EdgeInsets.only(top: 5.0,left: 1),
                             child: Text(
                               '993-997',
-                              style: TextStyle(fontSize: 18,color: tex),
+                              style: TextStyle(fontSize: 16.5,color: tex),
                             ),
                           ),
                         )
@@ -2433,7 +2434,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 10.0,left: 0.5),
                             child: Text(
                               '998-1035',
-                              style: TextStyle(fontSize: 16,color: tex),
+                              style: TextStyle(fontSize: 15.5,color: tex),
                             ),
                           ),
                         )
