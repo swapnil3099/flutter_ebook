@@ -1042,7 +1042,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                       ))),
                               Row(
                                 children: [
-                                  Text('• मण्डपाङ्गवास्तुपूजन • गृहवास्तु में वर्धिनी तथा',style: TextStyle(
+                                  Text('•मण्डपाङ्गवास्तुपूजन •गृहवास्तु में वर्धिनी तथा',style: TextStyle(
                                     fontSize: 15,)),
                                 ],
                               ),
@@ -1058,22 +1058,22 @@ class _DetailsScreenState extends State<DetailsScreen> {
                               Row(
                               children: [
                               Text('• शिख्यादिवास्तुमण्डलदेवतास्थापनम्',style: TextStyle(
-                                fontSize: 18,)),
+                                fontSize: 15,)),
                               ],
                               ),
                               Row(
                                 children: [
-                                  Text('• शिखयादिवास्तुपायसबलिदानम् • वास्तुहोम /',style: TextStyle(
+                                  Text('•शिखयादिवास्तुपायसबलिदानम् •वास्तुहोम/',style: TextStyle(
                                     fontSize: 15,)),
                                 ],
                               ),
                               Row(
                                 children: [
                                   Text('विसर्जनम्',style: TextStyle(
-                                    fontSize: 18,)),
-                                  SizedBox(width: 4,),
+                                    fontSize: 16,)),
+                                  SizedBox(width: 2,),
                                   Text('• वास्तुपुरुषमूर्ति निक्षेपप्रयोगः',style: TextStyle(
-                                    fontSize: 18,)),
+                                    fontSize: 16,)),
                                 ],
                               ),
                             ],
@@ -1132,25 +1132,25 @@ class _DetailsScreenState extends State<DetailsScreen> {
                               Row(
                                 children: [
                                   Text('• विश्वदुर्गादि चतुःषष्टियोगिनी देवतापूजनं ',style: TextStyle(
-                                    fontSize: 18,)),
+                                    fontSize: 15,)),
                                 ],
                               ),
                               Row(
                                 children: [
                                   Text('• गजाननादि चतुःषष्टियोगिनी देवतापूजनं',style: TextStyle(
-                                    fontSize: 18,)),
+                                    fontSize: 15,)),
                                 ],
                               ),
                               Row(
                                 children: [
                                   Text('• जयादि चतुःषष्टियोगिनी देवतापूजनं',style: TextStyle(
-                                    fontSize: 18,)),
+                                    fontSize: 16.5,)),
                                 ],
                               ),
                               Row(
                                 children: [
                                   Text('• दिव्यादि चतुःषष्टियोगिनी देवतापूजनं',style: TextStyle(
-                                    fontSize: 18,)),
+                                    fontSize: 15,)),
                                 ],
                               ),
                               Row(
