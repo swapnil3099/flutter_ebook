@@ -541,7 +541,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
                             child: Text(
                               '88-120',
-                              style: TextStyle(fontSize: 16, color: tex),
+                              style: TextStyle(fontSize: 18, color: tex),
                             ),
                           ),
                         )
@@ -1513,6 +1513,60 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '1036-1063',
+                              style: TextStyle(fontSize: 16.5, color: tex),
+                            ),
+                          ),
+                        )
+                      ]),
+                  TableRow(
+                      decoration: BoxDecoration(
+                          color: odd
+                      ),
+                      children: [
+                        Container(
+                          color: sr,
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(top: 5),
+                                child: Text(
+                                  '27',
+                                  style: TextStyle(
+                                    fontSize: 18,),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 2, top: 5),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              GestureDetector(
+                                  onTap: () =>
+                                      Navigator.push(context,
+                                          MaterialPageRoute(
+                                              builder: (context) => Page11())),
+                                  child: Text('नवग्रह स्तोत्र -सर्पसूक्त',
+                                      style: TextStyle(
+                                        fontSize: 18,
+                                      ))),
+
+                            ],
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () =>
+                              Navigator.push(context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Page11())),
+                          child: Container(
+                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            child: Text(
+                              '01-19',
                               style: TextStyle(fontSize: 16.5, color: tex),
                             ),
                           ),

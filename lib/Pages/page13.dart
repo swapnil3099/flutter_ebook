@@ -86,7 +86,7 @@ class _AfterSplashState extends State<AfterSplash> {
     loadDocument();
   }
   loadDocument() async {
-    document = await PDFDocument.fromAsset('assets/pdf/master5.pdf');
+    document = await PDFDocument.fromAsset('assets/pdf/master13.pdf');
     setState(() => _isLoading = false);
   }
 
