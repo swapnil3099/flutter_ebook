@@ -22,6 +22,8 @@ import 'package:flutter_ebook/subindex/index20.dart';
 import 'package:flutter_ebook/subindex/index21.dart';
 import 'package:flutter_ebook/subindex/index22.dart';
 import 'package:flutter_ebook/subindex/index23.dart';
+import 'package:flutter_ebook/subindex/index24.dart';
+import 'package:flutter_ebook/subindex/index25.dart';
 import 'package:flutter_ebook/subindex/index3.dart';
 import 'package:flutter_ebook/subindex/index8.dart';
 
@@ -1390,7 +1392,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => index24())),
                                   child: Text('च-योगिनी/अजरादि/च-भैरवदेवताहोमः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1402,7 +1404,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => index24())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -1443,7 +1445,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page11())),
+                                              builder: (context) => index25())),
                                   child: Text('उत्तरतन्त्र',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1456,7 +1458,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page11())),
+                                      builder: (context) => index25())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
