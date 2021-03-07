@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ebook/Pages/page2.dart';
-import 'package:flutter_ebook/Pages/page3.dart';
-import 'package:flutter_ebook/Pages/page4.dart';
-import 'package:flutter_ebook/Pages/page5.dart';
-import 'package:flutter_ebook/Pages/page6.dart';
-import 'package:flutter_ebook/screens/page.dart';
+import 'package:flutter_ebook/Pages/page13.dart';
+import 'package:flutter_ebook/Pages/page13_2.dart';
+import 'package:flutter_ebook/Pages/page13_3.dart';
+import 'package:flutter_ebook/Pages/page13_4.dart';
+import 'package:flutter_ebook/Pages/page13_5.dart';
+import 'package:flutter_ebook/Pages/page13_6.dart';
 
 class index13 extends StatefulWidget {
   @override
@@ -111,7 +111,7 @@ class _index13State extends State<index13> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page1())),
+                                              builder: (context) => Page13())),
                                   child: Text('विश्वदुर्गादिचतुःषष्टियोगिनी आवाहनम्',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -120,7 +120,7 @@ class _index13State extends State<index13> {
                           ),
                         ),
                         GestureDetector(
-                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page1())),
+                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page13())),
                           child: Container(
                             padding: const EdgeInsets.only(left:2,top: 5),
                             child: Text(
@@ -163,7 +163,7 @@ class _index13State extends State<index13> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2())),
+                                              builder: (context) => Page13_2())),
                                   child: Text('गजाननादिचतुःषष्टियोगिनी आवाहनम्',
                                       style: TextStyle(
                                         fontSize: 16,
@@ -175,7 +175,7 @@ class _index13State extends State<index13> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2())),
+                                      builder: (context) => Page13_2())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
@@ -216,7 +216,7 @@ class _index13State extends State<index13> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page3())),
+                                              builder: (context) => Page13_3())),
                                   child: Text('जयादिचतुःषष्टियोगिनी आवाहनम्',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -228,7 +228,7 @@ class _index13State extends State<index13> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page3())),
+                                      builder: (context) => Page13_3())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -271,7 +271,7 @@ class _index13State extends State<index13> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page4())),
+                                                builder: (context) => Page13_4())),
                                     child: Text(
                                       'दिव्यादिचतुःषष्टियोगिनी आवाहनम्',
                                       style: TextStyle(fontSize: 15,),
@@ -287,7 +287,7 @@ class _index13State extends State<index13> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page4())),
+                                      builder: (context) => Page13_4())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -331,7 +331,7 @@ class _index13State extends State<index13> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page5())),
+                                              builder: (context) => Page13_5())),
                                   child: Text('क्षेत्रपालदेवता आवाहन',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -343,7 +343,7 @@ class _index13State extends State<index13> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page5())),
+                                      builder: (context) => Page13_5())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left:2),
                             child: Text(
@@ -387,7 +387,7 @@ class _index13State extends State<index13> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page6())),
+                                                builder: (context) => Page13_6())),
                                     child: Text(
                                       'चतुषष्टिभैरवदेवतापूजनप्रयोगः',
                                       style: TextStyle(
@@ -404,7 +404,7 @@ class _index13State extends State<index13> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page6())),
+                                      builder: (context) => Page13_6())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
