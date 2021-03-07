@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ebook/Pages/page2.dart';
 import 'package:flutter_ebook/Pages/page3.dart';
-import 'package:flutter_ebook/Pages/page4.dart';
-import 'package:flutter_ebook/Pages/page5.dart';
-import 'package:flutter_ebook/screens/page.dart';
+import 'package:flutter_ebook/Pages/page3_2.dart';
+import 'package:flutter_ebook/Pages/page3_3.dart';
+import 'package:flutter_ebook/Pages/page3_4.dart';
 
 class index3 extends StatefulWidget {
   @override
@@ -110,7 +109,7 @@ class _index3State extends State<index3> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page1())),
+                                              builder: (context) => Page3())),
                                   child: Text('शकसंवत की शब्दो में जानकारी',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -119,7 +118,7 @@ class _index3State extends State<index3> {
                           ),
                         ),
                         GestureDetector(
-                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page1())),
+                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page3())),
                           child: Container(
                             padding: const EdgeInsets.only(left:2,top: 5),
                             child: Text(
@@ -162,7 +161,7 @@ class _index3State extends State<index3> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2())),
+                                              builder: (context) => Page3_2())),
                                   child: Text('अयन गोल विचारः ',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -174,7 +173,7 @@ class _index3State extends State<index3> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2())),
+                                      builder: (context) => Page3_2())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
@@ -215,7 +214,7 @@ class _index3State extends State<index3> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page3())),
+                                              builder: (context) => Page3_2())),
                                   child: Text('षडऋतवः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -227,7 +226,7 @@ class _index3State extends State<index3> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page3())),
+                                      builder: (context) => Page3_2())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -270,7 +269,7 @@ class _index3State extends State<index3> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page4())),
+                                                builder: (context) => Page3_3())),
                                     child: Text(
                                       'कार्तिकादि 12 मास ',
                                       style: TextStyle(fontSize: 18,),
@@ -286,7 +285,7 @@ class _index3State extends State<index3> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page4())),
+                                      builder: (context) => Page3_3())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -330,7 +329,7 @@ class _index3State extends State<index3> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page5())),
+                                              builder: (context) => Page3_4())),
                                   child: Text('पक्ष-तिथि-वासर-नक्षत्र-योग-करण-चन्द्रराशि  ',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -342,7 +341,7 @@ class _index3State extends State<index3> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page5())),
+                                      builder: (context) => Page3_4())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left:2),
                             child: Text(
