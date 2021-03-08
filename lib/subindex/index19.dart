@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ebook/Pages/page2.dart';
-import 'package:flutter_ebook/Pages/page3.dart';
-import 'package:flutter_ebook/screens/page.dart';
+import 'package:flutter_ebook/Pages/page19.dart';
+import 'package:flutter_ebook/Pages/page19_2.dart';
+import 'package:flutter_ebook/Pages/page19_3.dart';
 
 class index19 extends StatefulWidget {
   @override
@@ -108,7 +108,7 @@ class _index19State extends State<index19> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page1())),
+                                              builder: (context) => Page19())),
                                   child: Text('सूर्यपीठदेवताः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -117,7 +117,7 @@ class _index19State extends State<index19> {
                           ),
                         ),
                         GestureDetector(
-                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page1())),
+                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page19())),
                           child: Container(
                             padding: const EdgeInsets.only(left:2,top: 5),
                             child: Text(
@@ -160,7 +160,7 @@ class _index19State extends State<index19> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2())),
+                                              builder: (context) => Page19_2())),
                                   child: Text('सूर्ययन्त्रदेवताः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -172,7 +172,7 @@ class _index19State extends State<index19> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2())),
+                                      builder: (context) => Page19_2())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
@@ -213,7 +213,7 @@ class _index19State extends State<index19> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page3())),
+                                              builder: (context) => Page19_3())),
                                   child: Text('प्रधान श्री सूर्यदेवमहापूजा',
                                       style: TextStyle(
                                         fontSize: 16,
@@ -225,7 +225,7 @@ class _index19State extends State<index19> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page3())),
+                                      builder: (context) => Page19_3())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
