@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ebook/Pages/page2.dart';
-import 'package:flutter_ebook/Pages/page3.dart';
-import 'package:flutter_ebook/Pages/page4.dart';
-import 'package:flutter_ebook/Pages/page5.dart';
-import 'package:flutter_ebook/Pages/page6.dart';
-import 'package:flutter_ebook/Pages/page7.dart';
-import 'package:flutter_ebook/screens/page.dart';
+import 'package:flutter_ebook/Pages/page24.dart';
+import 'package:flutter_ebook/Pages/page24_2.dart';
+import 'package:flutter_ebook/Pages/page24_3.dart';
+import 'package:flutter_ebook/Pages/page24_4.dart';
+import 'package:flutter_ebook/Pages/page24_5.dart';
+import 'package:flutter_ebook/Pages/page24_6.dart';
+import 'package:flutter_ebook/Pages/page24_7.dart';
 
 class index24 extends StatefulWidget {
   @override
@@ -112,7 +112,7 @@ class _index24State extends State<index24> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page1())),
+                                              builder: (context) => Page24())),
                                   child: Text('दिव्यादि चतुषष्टियोगिनी होमः',
                                       style: TextStyle(
                                         fontSize: 16,
@@ -121,7 +121,7 @@ class _index24State extends State<index24> {
                           ),
                         ),
                         GestureDetector(
-                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page1())),
+                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page24())),
                           child: Container(
                             padding: const EdgeInsets.only(left:2,top: 5),
                             child: Text(
@@ -164,7 +164,7 @@ class _index24State extends State<index24> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2())),
+                                              builder: (context) => Page24_2())),
                                   child: Text('जयादि चतुषष्टियोगिनी होमः',
                                       style: TextStyle(
                                         fontSize: 16,
@@ -176,7 +176,7 @@ class _index24State extends State<index24> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2())),
+                                      builder: (context) => Page24_2())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
@@ -217,7 +217,7 @@ class _index24State extends State<index24> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page3())),
+                                              builder: (context) => Page24_3())),
                                   child: Text('विश्वदुर्गादि चतुःषष्टियोगिनी होमः',
                                       style: TextStyle(
                                         fontSize: 16,
@@ -229,7 +229,7 @@ class _index24State extends State<index24> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page3())),
+                                      builder: (context) => Page24_3())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -272,7 +272,7 @@ class _index24State extends State<index24> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page4())),
+                                                builder: (context) => Page24_4())),
                                     child: Text(
                                       'गजाननादिचतुःषष्टियोगिनी होमः',
                                       style: TextStyle(fontSize: 15,),
@@ -288,7 +288,7 @@ class _index24State extends State<index24> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page4())),
+                                      builder: (context) => Page24_4())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -332,7 +332,7 @@ class _index24State extends State<index24> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page5())),
+                                              builder: (context) => Page24_5())),
                                   child: Text('अजरादिक्षेत्रपाल होमः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -344,7 +344,7 @@ class _index24State extends State<index24> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page5())),
+                                      builder: (context) => Page24_5())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left:2),
                             child: Text(
@@ -388,7 +388,7 @@ class _index24State extends State<index24> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page6())),
+                                                builder: (context) => Page24_6())),
                                     child: Text(
                                       'एकपञ्चाशत्क्षेत्रपालहोमः',
                                       style: TextStyle(
@@ -405,7 +405,7 @@ class _index24State extends State<index24> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page6())),
+                                      builder: (context) => Page24_6())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -448,7 +448,7 @@ class _index24State extends State<index24> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page7())),
+                                                builder: (context) => Page24_7())),
                                     child: Text('चतुषष्टिभैरवदेवताहोमः',
                                         style: TextStyle(
                                           fontSize: 18,
@@ -463,7 +463,7 @@ class _index24State extends State<index24> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page7())),
+                                      builder: (context) => Page24_7())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
