@@ -1,12 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ebook/Pages/page2.dart';
-import 'package:flutter_ebook/Pages/page3.dart';
-import 'package:flutter_ebook/Pages/page4.dart';
-import 'package:flutter_ebook/Pages/page5.dart';
-import 'package:flutter_ebook/Pages/page6.dart';
-import 'package:flutter_ebook/Pages/page7.dart';
-import 'package:flutter_ebook/Pages/page8.dart';
-import 'package:flutter_ebook/screens/page.dart';
+import 'package:flutter_ebook/Pages/page23.dart';
+import 'package:flutter_ebook/Pages/page23_10.dart';
+import 'package:flutter_ebook/Pages/page23_11.dart';
+import 'package:flutter_ebook/Pages/page23_12.dart';
+import 'package:flutter_ebook/Pages/page23_13.dart';
+import 'package:flutter_ebook/Pages/page23_14.dart';
+import 'package:flutter_ebook/Pages/page23_15.dart';
+import 'package:flutter_ebook/Pages/page23_16.dart';
+import 'package:flutter_ebook/Pages/page23_17.dart';
+import 'package:flutter_ebook/Pages/page23_18.dart';
+import 'package:flutter_ebook/Pages/page23_19.dart';
+import 'package:flutter_ebook/Pages/page23_2.dart';
+import 'package:flutter_ebook/Pages/page23_20.dart';
+import 'package:flutter_ebook/Pages/page23_21.dart';
+import 'package:flutter_ebook/Pages/page23_3.dart';
+import 'package:flutter_ebook/Pages/page23_4.dart';
+import 'package:flutter_ebook/Pages/page23_5.dart';
+import 'package:flutter_ebook/Pages/page23_6.dart';
+import 'package:flutter_ebook/Pages/page23_7.dart';
+import 'package:flutter_ebook/Pages/page23_8.dart';
+import 'package:flutter_ebook/Pages/page23_9.dart';
 
 class index23 extends StatefulWidget {
   @override
@@ -113,7 +126,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page1())),
+                                              builder: (context) => Page23())),
                                   child: Text('देवीप्रधानहोमः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -122,7 +135,7 @@ class _index23State extends State<index23> {
                           ),
                         ),
                         GestureDetector(
-                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page1())),
+                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page23())),
                           child: Container(
                             padding: const EdgeInsets.only(left:2,top: 5),
                             child: Text(
@@ -165,7 +178,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2())),
+                                              builder: (context) => Page23_2())),
                                   child: Text('तर्पणमार्जन प्रयोग',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -177,7 +190,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2())),
+                                      builder: (context) => Page23_2())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
@@ -218,7 +231,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page3())),
+                                              builder: (context) => Page23_3())),
                                   child: Text('वास्तुमण्डलदेवतानां होमः',
                                       style: TextStyle(
                                         fontSize: 16,
@@ -230,7 +243,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page3())),
+                                      builder: (context) => Page23_3())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -273,7 +286,7 @@ class _index23State extends State<index23> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page4())),
+                                                builder: (context) => Page23_4())),
                                     child: Text(
                                       'ब्रह्मादिवास्तुमण्डलदेवतानांहोमः',
                                       style: TextStyle(fontSize: 15,),
@@ -289,7 +302,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page4())),
+                                      builder: (context) => Page23_4())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -333,7 +346,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page5())),
+                                              builder: (context) => Page23_5())),
                                   child: Text('देवीपीठदेवताहोमः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -345,7 +358,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page5())),
+                                      builder: (context) => Page23_5())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left:2),
                             child: Text(
@@ -389,7 +402,7 @@ class _index23State extends State<index23> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page6())),
+                                                builder: (context) => Page23_6())),
                                     child: Text(
                                       'देवीआवरण देवतानां होमः ',
                                       style: TextStyle(
@@ -406,7 +419,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page6())),
+                                      builder: (context) => Page23_6())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -449,7 +462,7 @@ class _index23State extends State<index23> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page7())),
+                                                builder: (context) => Page23_7())),
                                     child: Text('श्रीविष्णुःप्रधानदेवहोमः',
                                         style: TextStyle(
                                           fontSize: 18,
@@ -464,7 +477,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page7())),
+                                      builder: (context) => Page23_7())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -506,7 +519,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_8())),
                                   child: Text('विष्णुपीठदेवता होमः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -520,7 +533,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_8())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -562,7 +575,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_9())),
                                   child: Text('विष्णुआवरणदेवता होमः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -576,7 +589,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_9())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -618,7 +631,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_10())),
                                   child: Text('प्रधानगणपतिदेवताहोमः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -632,7 +645,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_10())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -674,7 +687,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_11())),
                                   child: Text('गणपतिपीठदेवता होमः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -688,7 +701,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_11())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -730,7 +743,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_12())),
                                   child: Text('गणपतिआवरणदेवता होमः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -744,7 +757,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_12())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -786,7 +799,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_13())),
                                   child: Text('अर्कादिप्राप्यघृताक्तसमीधद्रव्यैःप्रधानसूर्यदेवताहोमः',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -800,7 +813,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_13())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -842,7 +855,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_13())),
                                   child: Text('प्रधानसूर्यपीठदेवताहोमः',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -856,7 +869,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_13())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -898,7 +911,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_14())),
                                   child: Text('सूर्यआवरणदेवताहोमः',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -912,7 +925,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_14())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -954,7 +967,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_15())),
                                   child: Text('प्रधानमहारुद्रदेवताहोमः',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -968,7 +981,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_15())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -1010,7 +1023,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_16())),
                                   child: Text('रुद्रपीठदेवताहोमः',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -1024,7 +1037,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_16())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -1066,7 +1079,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_17())),
                                   child: Text('रुद्रआवरणदेवताहोमः',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -1080,7 +1093,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_17())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -1122,7 +1135,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_18())),
                                   child: Text('एकलिङ्गतोभद्रमण्डलहोमः ',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1136,7 +1149,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_18())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -1178,7 +1191,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_19())),
                                   child: Text('चतुर्लिङ्गतोभद्रमण्डलहोमः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1192,7 +1205,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_19())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -1234,7 +1247,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_20())),
                                   child: Text('अष्टलिङ्गतोभद्रमण्डलहोमः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -1248,7 +1261,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_20())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -1290,7 +1303,7 @@ class _index23State extends State<index23> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page8())),
+                                              builder: (context) => Page23_21())),
                                   child: Text('रेखात्मक द्वादशलिङ्गतोभद्रमण्डलहोमः',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -1304,7 +1317,7 @@ class _index23State extends State<index23> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page8())),
+                                      builder: (context) => Page23_21())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
