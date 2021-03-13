@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ebook/Pages/page2.dart';
-import 'package:flutter_ebook/Pages/page3.dart';
-import 'package:flutter_ebook/Pages/page4.dart';
-import 'package:flutter_ebook/screens/page.dart';
+import 'package:flutter_ebook/Pages/page25.dart';
+import 'package:flutter_ebook/Pages/page25_2.dart';
+import 'package:flutter_ebook/Pages/page25_3.dart';
+import 'package:flutter_ebook/Pages/page25_4.dart';
 
 class index25 extends StatefulWidget {
   @override
@@ -109,7 +109,7 @@ class _index25State extends State<index25> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page1())),
+                                              builder: (context) => Page25())),
                                   child: Text('उत्तरतन्त्रारंभः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -118,7 +118,7 @@ class _index25State extends State<index25> {
                           ),
                         ),
                         GestureDetector(
-                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page1())),
+                          onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context) => Page25())),
                           child: Container(
                             padding: const EdgeInsets.only(left:2,top: 5),
                             child: Text(
@@ -161,7 +161,7 @@ class _index25State extends State<index25> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2())),
+                                              builder: (context) => Page25_2())),
                                   child: Text('दिक्पालादिस्थापितदेवतादिनांबलिदानम्',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -173,7 +173,7 @@ class _index25State extends State<index25> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2())),
+                                      builder: (context) => Page25_2())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
@@ -214,7 +214,7 @@ class _index25State extends State<index25> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page3())),
+                                              builder: (context) => Page25_3())),
                                   child: Text('स्थापितदेवता बलिदानम्',
                                       style: TextStyle(
                                         fontSize: 16,
@@ -226,7 +226,7 @@ class _index25State extends State<index25> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page3())),
+                                      builder: (context) => Page25_3())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -269,7 +269,7 @@ class _index25State extends State<index25> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page4())),
+                                                builder: (context) => Page25_4())),
                                     child: Text(
                                       'मध्यपीठे प्रधानदेवतायाः बलिः',
                                       style: TextStyle(fontSize: 15,),
@@ -285,7 +285,7 @@ class _index25State extends State<index25> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page4())),
+                                      builder: (context) => Page25_4())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(

@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ebook/consttants.dart';
 import 'package:splashscreen/splashscreen.dart';
 
-class Page22 extends StatefulWidget {
+class Page25 extends StatefulWidget {
   @override
-  _Page22State createState() => _Page22State();
+  _Page25State createState() => _Page25State();
 }
 
-class _Page22State extends State<Page22> {
+class _Page25State extends State<Page25> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
