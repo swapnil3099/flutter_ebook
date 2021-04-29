@@ -1,3 +1,4 @@
+import 'package:contactus/contactus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ebook/services/auth.dart';
 
@@ -12,19 +13,22 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Profile'),
-        backgroundColor: Colors.orangeAccent,
-        centerTitle: true,
+      backgroundColor: Colors.teal,
+      body: ContactUs(
+        cardColor: Colors.white,
+        textColor: Colors.teal.shade900,
+        logo: AssetImage('images/crop.jpg'),
+        email: 'mlengineer007@gmail.com',
+        companyName: 'Swapnil Macwan',
+        companyColor: Colors.teal.shade100,
+        phoneNumber: '+919737086466',
+        website: 'https://jugaadtricks.ga',
+        githubUserName: 'AbhishekDoshi26',
+        linkedinURL: 'https://www.linkedin.com/in/abhishek-doshi-520983199/',
+        tagLine: 'Flutter Developer',
+        taglineColor: Colors.teal.shade100,
       ),
-      body: Center(
-        child:RaisedButton(onPressed:() async{
-          setState(() => loading = true);
-          //await _auth.signOut();
-          //Navigator.popUntil(context, ModalRoute.withName('/'),);
-          },
-          child: Text('Log Out'),),
-      ),
+
     );
   }
 }

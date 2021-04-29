@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ebook/consttants.dart';
 import 'package:splashscreen/splashscreen.dart';
 
-class Page11_14 extends StatefulWidget {
+class Page2_10 extends StatefulWidget {
   @override
-  _Page11_14State createState() => _Page11_14State();
+  _Page2_10State createState() => _Page2_10State();
 }
 
-class _Page11_14State extends State<Page11_14> {
+class _Page2_10State extends State<Page2_10> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
@@ -86,7 +86,7 @@ class _AfterSplashState extends State<AfterSplash> {
     loadDocument();
   }
   loadDocument() async {
-    document = await PDFDocument.fromAsset('assets/pdf/master11_14.pdf');
+    document = await PDFDocument.fromAsset('assets/pdf/master2_10.pdf');
     setState(() => _isLoading = false);
   }
 

@@ -12,17 +12,17 @@ class _Page17State extends State<Page17> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 2,
-      navigateAfterSeconds: new AfterSplash1(),
+      seconds: 0,
+      navigateAfterSeconds: new AfterSplash(),
       //title: new Text('Welcome In SplashScreen',
       //   style: new TextStyle(
       //     fontWeight: FontWeight.bold,
       //     fontSize: 20.0
       //  ),),
-      image: new Image.asset('assets/images/11.png'),
+      /*image: new Image.asset('assets/images/11.png'),
       backgroundColor: Colors.orangeAccent,
       styleTextUnderTheLoader: new TextStyle(),
-      photoSize: 320.0,
+      photoSize: 320.0,*/
 
     );
 

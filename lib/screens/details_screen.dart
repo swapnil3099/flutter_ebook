@@ -1464,7 +1464,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
                               '998-1035',
-                              style: TextStyle(fontSize: 16.5, color: tex),
+                              style: TextStyle(fontSize: 14, color: tex),
                             ),
                           ),
                         )
@@ -1515,10 +1515,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   MaterialPageRoute(
                                       builder: (context) => index26())),
                           child: Container(
-                            padding: const EdgeInsets.only(top: 5.0,left: 0.5),
+                            padding: const EdgeInsets.only(top: 5.0,left:0.5),
                             child: Text(
                               '1036-1063',
-                              style: TextStyle(fontSize: 16.5, color: tex),
+                              style: TextStyle(fontSize: 12.7, color: tex),
                             ),
                           ),
                         )

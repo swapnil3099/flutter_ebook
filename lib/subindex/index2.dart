@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ebook/Pages/page15.dart';
-import 'package:flutter_ebook/Pages/page16.dart';
 import 'package:flutter_ebook/Pages/page2.dart';
+import 'package:flutter_ebook/Pages/page2_10.dart';
+import 'package:flutter_ebook/Pages/page2_11.dart';
+import 'package:flutter_ebook/Pages/page2_12.dart';
+import 'package:flutter_ebook/Pages/page2_13.dart';
 import 'package:flutter_ebook/Pages/page2_2.dart';
 import 'package:flutter_ebook/Pages/page2_3.dart';
 import 'package:flutter_ebook/Pages/page2_4.dart';
@@ -276,7 +278,7 @@ class _index2State extends State<index2> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page2_3())),
+                                                builder: (context) => Page2_2())),
                                     child: Text(
                                       'रुद्रयाग मुहूर्तः',
                                       style: TextStyle(fontSize: 18,),
@@ -292,7 +294,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2_3())),
+                                      builder: (context) => Page2_2())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -336,7 +338,7 @@ class _index2State extends State<index2> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2_4())),
+                                              builder: (context) => Page2_3())),
                                   child: Text('विष्णुयाग मुहूर्त विचारः',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -348,7 +350,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2_4())),
+                                      builder: (context) => Page2_3())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left:2),
                             child: Text(
@@ -392,11 +394,11 @@ class _index2State extends State<index2> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page2_4())),
+                                                builder: (context) => Page2_3())),
                                     child: Text(
                                       'नवचण्डी, शतचण्डी, सहस्त्रचण्डी मुहूर्त',
                                       style: TextStyle(
-                                          fontSize: 15, color: tex),
+                                          fontSize: 14.5, color: tex),
                                     ),
                                   ),
                                 ],
@@ -409,7 +411,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2_4())),
+                                      builder: (context) => Page2_3())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -452,7 +454,7 @@ class _index2State extends State<index2> {
                                     onTap: () =>
                                         Navigator.push(context,
                                             MaterialPageRoute(
-                                                builder: (context) => Page2_4())),
+                                                builder: (context) => Page2_3())),
                                     child: Text('अग्निवास',
                                         style: TextStyle(
                                           fontSize: 18,
@@ -467,7 +469,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2_4())),
+                                      builder: (context) => Page2_3())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 2),
                             child: Text(
@@ -509,7 +511,7 @@ class _index2State extends State<index2> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2_5())),
+                                              builder: (context) => Page2_4())),
                                   child: Text('शिवमुखाहुतीचक्रम् ',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -523,7 +525,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2_5())),
+                                      builder: (context) => Page2_4())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0),
@@ -566,7 +568,7 @@ class _index2State extends State<index2> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2_5())),
+                                              builder: (context) => Page2_4())),
                                   child: Text('विष्णुयागेआहुतिचक्रम् ',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -578,7 +580,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2_5())),
+                                      builder: (context) => Page2_4())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -620,7 +622,7 @@ class _index2State extends State<index2> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2_5())),
+                                              builder: (context) => Page2_4())),
                                   child: Text('नारायणबली मुहूर्तविचार',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -632,7 +634,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2_5())),
+                                      builder: (context) => Page2_4())),
                           child: Container(
 
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
@@ -675,7 +677,7 @@ class _index2State extends State<index2> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2_6())),
+                                              builder: (context) => Page2_5())),
                                   child: Text('चन्द्रमावासज्ञानं',
                                       style: TextStyle(
                                         fontSize: 16,
@@ -687,7 +689,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2_6())),
+                                      builder: (context) => Page2_5())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -728,7 +730,7 @@ class _index2State extends State<index2> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2_7())),
+                                              builder: (context) => Page2_5())),
                                   child: Text('दिशाशूलं',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -740,7 +742,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2_7())),
+                                      builder: (context) => Page2_5())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -781,7 +783,7 @@ class _index2State extends State<index2> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2_8())),
+                                              builder: (context) => Page2_6())),
                                   child: Text('कालवास विचार',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -793,7 +795,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2_8())),
+                                      builder: (context) => Page2_6())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -834,7 +836,7 @@ class _index2State extends State<index2> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page2_9())),
+                                              builder: (context) => Page2_7())),
                                   child: Text('यमघण्ट परिहार',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -846,7 +848,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page2_9())),
+                                      builder: (context) => Page2_7())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -887,7 +889,7 @@ class _index2State extends State<index2> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page15())),
+                                              builder: (context) => Page2_8())),
                                   child: Text('भद्राफ़लम्',
                                       style: TextStyle(
                                         fontSize: 18,
@@ -899,7 +901,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page15())),
+                                      builder: (context) => Page2_8())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -940,7 +942,7 @@ class _index2State extends State<index2> {
                                   onTap: () =>
                                       Navigator.push(context,
                                           MaterialPageRoute(
-                                              builder: (context) => Page16())),
+                                              builder: (context) => Page2_8())),
                                   child: Text('तीर्थयात्रा प्रकरणम् ',
                                       style: TextStyle(
                                         fontSize: 15,
@@ -952,7 +954,7 @@ class _index2State extends State<index2> {
                           onTap: () =>
                               Navigator.push(context,
                                   MaterialPageRoute(
-                                      builder: (context) => Page16())),
+                                      builder: (context) => Page2_8())),
                           child: Container(
                             padding: const EdgeInsets.only(top: 5.0,left: 0.5),
                             child: Text(
@@ -993,7 +995,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_9())),
     child: Text('वास्तुमुहूर्त विचार प्रकरणम् ',
     style: TextStyle(
     fontSize: 15,
@@ -1005,7 +1007,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_9())),
     child: Container(
     padding: const EdgeInsets.only(top: 5.0,left: 0.5),
     child: Text(
@@ -1046,7 +1048,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_10())),
     child: Text('नान्दीमुखश्राद्ध विधि विचार',
     style: TextStyle(
     fontSize: 15,
@@ -1058,7 +1060,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_10())),
     child: Container(
     padding: const EdgeInsets.only(top: 5.0,left: 0.5),
     child: Text(
@@ -1100,7 +1102,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_11())),
     child: Text('अभिजित मुहूर्त विचार',
     style: TextStyle(
     fontSize: 15,
@@ -1112,7 +1114,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_11())),
     child: Container(
     padding: const EdgeInsets.only(top: 5.0,left: 0.5),
     child: Text(
@@ -1154,7 +1156,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_11())),
     child: Text('प्रसङ्गातग्रहबलविचार ',
     style: TextStyle(
     fontSize: 15,
@@ -1166,7 +1168,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_11())),
     child: Container(
     padding: const EdgeInsets.only(top: 5.0,left: 0.5),
     child: Text(
@@ -1209,7 +1211,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_11())),
     child: Text('सूतकेस्नान निर्णयः',
     style: TextStyle(
     fontSize: 15,
@@ -1221,7 +1223,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_11())),
     child: Container(
     padding: const EdgeInsets.only(top: 5.0,left: 0.5),
     child: Text(
@@ -1263,7 +1265,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_12())),
     child: Text('मृत्युशौच निर्णय',
     style: TextStyle(
     fontSize: 15,
@@ -1275,7 +1277,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_12())),
     child: Container(
     padding: const EdgeInsets.only(top: 5.0,left: 0.5),
     child: Text(
@@ -1318,7 +1320,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_12())),
     child: Text('पुंसवन सीमन्त मुहूर्तः',
     style: TextStyle(
     fontSize: 15,
@@ -1330,7 +1332,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_12())),
     child: Container(
     padding: const EdgeInsets.only(top: 5.0,left: 0.5),
     child: Text(
@@ -1373,7 +1375,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_13())),
     child: Text('संस्कारादी मुहूर्तः',
     style: TextStyle(
     fontSize: 15,
@@ -1385,7 +1387,7 @@ class _index2State extends State<index2> {
     onTap: () =>
     Navigator.push(context,
     MaterialPageRoute(
-    builder: (context) => Page16())),
+    builder: (context) => Page2_13())),
     child: Container(
     padding: const EdgeInsets.only(top: 5.0,left: 0.5),
     child: Text(

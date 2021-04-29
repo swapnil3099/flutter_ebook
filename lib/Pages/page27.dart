@@ -12,24 +12,24 @@ class _Page27State extends State<Page27> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 2,
-      navigateAfterSeconds: new AfterSplash1(),
+      seconds:0,
+      navigateAfterSeconds: new AfterSplash(),
       //title: new Text('Welcome In SplashScreen',
       //   style: new TextStyle(
       //     fontWeight: FontWeight.bold,
       //     fontSize: 20.0
       //  ),),
-      image: new Image.asset('assets/images/11.png'),
-      backgroundColor: Colors.orangeAccent,
-      styleTextUnderTheLoader: new TextStyle(),
-      photoSize: 320.0,
+      //image: new Image.asset('assets/images/11.png'),
+      //backgroundColor: Colors.orangeAccent,
+      //styleTextUnderTheLoader: new TextStyle(),
+      //photoSize: 320.0,
 
     );
 
   }
 }
 
-class AfterSplash1 extends StatefulWidget {
+/*class AfterSplash1 extends StatefulWidget {
   @override
   _AfterSplash1State createState() => _AfterSplash1State();
 }
@@ -38,17 +38,17 @@ class _AfterSplash1State extends State<AfterSplash1> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 2,
+      //seconds: 2,
       navigateAfterSeconds: new AfterSplash2(),
       //title: new Text('Welcome In SplashScreen',
       //   style: new TextStyle(
       //     fontWeight: FontWeight.bold,
       //     fontSize: 20.0
       //  ),),
-      image: new Image.asset('assets/images/1.png'),
-      backgroundColor: Colors.orangeAccent,
-      styleTextUnderTheLoader: new TextStyle(),
-      photoSize: 328.0,
+      //image: new Image.asset('assets/images/1.png'),
+      //backgroundColor: Colors.orangeAccent,
+      //styleTextUnderTheLoader: new TextStyle(),
+      //photoSize: 328.0,
     );
   }
 }
@@ -63,15 +63,15 @@ class _AfterSplash2State extends State<AfterSplash2> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 2,
-      navigateAfterSeconds: new AfterSplash(),
-      image: new Image.asset('assets/images/2.png'),
-      backgroundColor: Colors.orangeAccent,
+     // seconds: 2,
+      //navigateAfterSeconds: new AfterSplash(),
+      //image: new Image.asset('assets/images/2.png'),
+      /*backgroundColor: Colors.orangeAccent,
       styleTextUnderTheLoader: new TextStyle(),
-      photoSize: 328.0,
+      photoSize: 328.0,*/
     );
   }
-}
+}*/
 
 class AfterSplash extends StatefulWidget {
   @override
